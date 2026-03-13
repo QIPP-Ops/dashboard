@@ -1,7 +1,7 @@
-name: QIPP 30min Auto‑Sync
+name: QIPP 5min Auto‑Sync
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Every 30 minutes
+    - cron: '*/5 * * * *'  # Every 5 minutes (288 runs/day)
   workflow_dispatch:       # Manual trigger
 
 jobs:
@@ -11,8 +11,10 @@ jobs:
     - uses: actions/checkout@v4
     - name: Update plant_data.json
       run: |
-        # Replace with your data source
-        echo '{"date": "2026-03-13", "generation": 450.5}' > plant_data.json
+        # TODO: Replace with real QIPP data source
+        curl -o data.xlsx "YOUR_SHAREPOINT_EXCEL_URL"
+        # Or static test data:
+        echo '{"date": "'$(date +%Y-%m-%dT%H:%M)'", "generation": '$(echo $RANDOM/1000.0)', "efficiency": '$(echo $(($RANDOM % 10 + 50))/10.0)'}' > plant_data.json
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: "Auto-sync $(date)"
+        commit_message: "5min sync $(date)"
