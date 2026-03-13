@@ -1,1447 +1,371 @@
 [
   {
-    "Date": "21.01.2026",
-    "Generation": 64902,
-    "NetGen": null,
-    "Load": 3787.4683333333323,
-    "PLF": null,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": null,
-    "Aux": null,
-    "MFEQH": null,
+    "Date": "24.01.2026",
+    "Generation": 69371,
+    "NetGen": 68191,
+    "Load": 2908,
+    "PLF": 74.89,
+    "Efficiency": 49.93,
+    "HeatRate": 7209.671423,
+    "Fuel": 10912,
     "Emissions": {
-      "NOx": 32.38,
-      "SOx": 27.855,
-      "CO": 9.33
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
     },
     "Water": {
       "ROProduction": null
     },
-    "AirIntakeDP": 4.668,
+    "AirIntakeDP": null,
     "Units": []
   },
   {
-    "Date": "01.02.2026",
-    "Generation": 67847,
-    "NetGen": null,
-    "Load": 3883.1999999999985,
-    "PLF": null,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": null,
-    "Aux": null,
-    "MFEQH": null,
+    "Date": "25.01.2026",
+    "Generation": 68459,
+    "NetGen": 67230,
+    "Load": 2905,
+    "PLF": 74.81,
+    "Efficiency": 51.44,
+    "HeatRate": 6997.902591,
+    "Fuel": 10444,
     "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
     },
     "Water": {
       "ROProduction": null
     },
-    "AirIntakeDP": 5.125,
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "26.01.2026",
+    "Generation": 65217,
+    "NetGen": 63999,
+    "Load": 2776,
+    "PLF": 71.49,
+    "Efficiency": 51.73,
+    "HeatRate": 6959.842484,
+    "Fuel": 9888,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "27.01.2026",
+    "Generation": 65247,
+    "NetGen": 64029,
+    "Load": 2679,
+    "PLF": 68.99,
+    "Efficiency": 50.2,
+    "HeatRate": 7171.864095,
+    "Fuel": 10194,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "28.01.2026",
+    "Generation": 66448,
+    "NetGen": 65230,
+    "Load": 2724,
+    "PLF": 70.15,
+    "Efficiency": 51.24,
+    "HeatRate": 7026.002502,
+    "Fuel": 10174,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "29.01.2026",
+    "Generation": 62292,
+    "NetGen": 61090,
+    "Load": 2347,
+    "PLF": 60.44,
+    "Efficiency": 50.71,
+    "HeatRate": 7099.538154,
+    "Fuel": 9628,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "30.01.2026",
+    "Generation": 61932,
+    "NetGen": 60709,
+    "Load": 2907,
+    "PLF": 74.86,
+    "Efficiency": 51.05,
+    "HeatRate": 7052.084207,
+    "Fuel": 9504,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "31.01.2026",
+    "Generation": 65721,
+    "NetGen": 64498,
+    "Load": 2975,
+    "PLF": 76.61,
+    "Efficiency": 51.69,
+    "HeatRate": 6964.660758,
+    "Fuel": 9972,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
     "Units": []
   },
   {
     "Date": "02.02.2026",
-    "Generation": 71029,
-    "NetGen": null,
-    "Load": 3883.1999999999985,
-    "PLF": 0.75,
-    "Efficiency": null,
-    "HeatRate": null,
+    "Generation": 72300,
+    "NetGen": 70994,
+    "Load": 3189,
+    "PLF": 82.12,
+    "Efficiency": 50.9,
+    "HeatRate": 7073.203279,
     "Fuel": 10712,
-    "Aux": 1306,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 5.283,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 161.625,
-        "MFEQH": 3879
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 161.83333333333334,
-        "MFEQH": 3884
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 161.83333333333334,
-        "MFEQH": 3884
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 169.91666666666666,
-        "MFEQH": 4078
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 169.16666666666666,
-        "MFEQH": 4060
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 172.70833333333334,
-        "MFEQH": 4145
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 176.5,
-        "MFEQH": 4236
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 176.41666666666666,
-        "MFEQH": 4234
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 162.66666666666666,
-        "MFEQH": 3904
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 182.54166666666666,
-        "MFEQH": 4381
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 172.33333333333334,
-        "MFEQH": 4136
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 168.45833333333334,
-        "MFEQH": 4043
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 161.83333333333334,
-        "MFEQH": 3884
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 162.04166666666666,
-        "MFEQH": 3889
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 168.75,
-        "MFEQH": 4050
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 159.95833333333334,
-        "MFEQH": 3839
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 159.45833333333334,
-        "MFEQH": 3827
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 164.45833333333334,
-        "MFEQH": 3947
-      }
-    ],
-    "TempMax": 23.37,
-    "TempMin": null,
-    "TempAvg": 13.25,
-    "MaxRH": 89.21,
-    "MinRH": 45.94,
-    "WindSpeed": 3.73
-  },
-  {
-    "Date": "03.02.2026",
-    "Generation": 64239,
-    "NetGen": null,
-    "Load": 3883.1999999999985,
-    "PLF": 0.68,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 9976,
-    "Aux": 1316,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 4.433,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 149.41666666666666,
-        "MFEQH": 3586
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 149.45833333333334,
-        "MFEQH": 3587
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 154.70833333333334,
-        "MFEQH": 3713
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 143.16666666666666,
-        "MFEQH": 3436
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 143.125,
-        "MFEQH": 3435
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 157,
-        "MFEQH": 3768
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 145.83333333333334,
-        "MFEQH": 3500
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 145.83333333333334,
-        "MFEQH": 3500
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 147.66666666666666,
-        "MFEQH": 3544
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 166.29166666666666,
-        "MFEQH": 3991
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 139.08333333333334,
-        "MFEQH": 3338
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 155.75,
-        "MFEQH": 3738
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 155.75,
-        "MFEQH": 3738
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 155.875,
-        "MFEQH": 3741
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 164.20833333333334,
-        "MFEQH": 3941
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 153.875,
-        "MFEQH": 3693
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 153.91666666666666,
-        "MFEQH": 3694
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 160.16666666666666,
-        "MFEQH": 3844
-      }
-    ],
-    "TempMax": 26.15,
-    "TempMin": null,
-    "TempAvg": 13.96,
-    "MaxRH": 93.66,
-    "MinRH": 21.4,
-    "WindSpeed": 7.52
-  },
-  {
-    "Date": "04.02.2026",
-    "Generation": 61552,
-    "NetGen": null,
-    "Load": 3846.7949999999987,
-    "PLF": 0.65,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 9764,
-    "Aux": 1291,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 4.805,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 151.54166666666666,
-        "MFEQH": 3637
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 151.54166666666666,
-        "MFEQH": 3637
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 155.83333333333334,
-        "MFEQH": 3740
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 147.04166666666666,
-        "MFEQH": 3529
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 146.875,
-        "MFEQH": 3525
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 159.5,
-        "MFEQH": 3828
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 130.33333333333334,
-        "MFEQH": 3128
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 130.33333333333334,
-        "MFEQH": 3128
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 139.58333333333334,
-        "MFEQH": 3350
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 176.5,
-        "MFEQH": 4236
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 157.29166666666666,
-        "MFEQH": 3775
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 163.16666666666666,
-        "MFEQH": 3916
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 136.66666666666666,
-        "MFEQH": 3280
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 102.79166666666667,
-        "MFEQH": 2467
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 137.08333333333334,
-        "MFEQH": 3290
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 143.16666666666666,
-        "MFEQH": 3436
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 143.25,
-        "MFEQH": 3438
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 154.33333333333334,
-        "MFEQH": 3704
-      }
-    ],
-    "TempMax": 25.32,
-    "TempMin": null,
-    "TempAvg": 14.42,
-    "MaxRH": 78.37,
-    "MinRH": 30.46,
-    "WindSpeed": 7.63
-  },
-  {
-    "Date": "05.02.2026",
-    "Generation": 62728,
-    "NetGen": null,
-    "Load": 3883.1999999999985,
-    "PLF": 0.67,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 9916,
-    "Aux": 1293,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 4.033,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 176.54166666666666,
-        "MFEQH": 4237
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 176.58333333333334,
-        "MFEQH": 4238
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 168.875,
-        "MFEQH": 4053
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 130.75,
-        "MFEQH": 3138
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 130.45833333333334,
-        "MFEQH": 3131
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 149.91666666666666,
-        "MFEQH": 3598
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 134.95833333333334,
-        "MFEQH": 3239
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 135,
-        "MFEQH": 3240
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 135.45833333333334,
-        "MFEQH": 3251
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 176.83333333333334,
-        "MFEQH": 4244
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 149.04166666666666,
-        "MFEQH": 3577
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 160.875,
-        "MFEQH": 3861
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 132.45833333333334,
-        "MFEQH": 3179
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 132.375,
-        "MFEQH": 3177
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 151.375,
-        "MFEQH": 3633
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 150.125,
-        "MFEQH": 3603
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 150.125,
-        "MFEQH": 3603
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 157.75,
-        "MFEQH": 3786
-      }
-    ],
-    "TempMax": 21.72,
-    "TempMin": null,
-    "TempAvg": 12.15,
-    "MaxRH": 87.36,
-    "MinRH": 47.73,
-    "WindSpeed": 6.72
-  },
-  {
-    "Date": "06.02.2026",
-    "Generation": 65537,
-    "NetGen": null,
-    "Load": 3883.1999999999985,
-    "PLF": 0.69,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 10304,
-    "Aux": 1213,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 5.133,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 160.58333333333334,
-        "MFEQH": 3854
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 166.16666666666666,
-        "MFEQH": 3988
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 163.41666666666666,
-        "MFEQH": 3922
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 157.125,
-        "MFEQH": 3771
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 156.5,
-        "MFEQH": 3756
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 166.54166666666666,
-        "MFEQH": 3997
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 153.70833333333334,
-        "MFEQH": 3689
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 153.75,
-        "MFEQH": 3690
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 152.45833333333334,
-        "MFEQH": 3659
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 173.08333333333334,
-        "MFEQH": 4154
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 147.08333333333334,
-        "MFEQH": 3530
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 160.375,
-        "MFEQH": 3849
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 139.58333333333334,
-        "MFEQH": 3350
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 139.625,
-        "MFEQH": 3351
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 156.125,
-        "MFEQH": 3747
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 144.70833333333334,
-        "MFEQH": 3473
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 144.79166666666666,
-        "MFEQH": 3475
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 155.58333333333334,
-        "MFEQH": 3734
-      }
-    ],
-    "TempMax": 20.91,
-    "TempMin": null,
-    "TempAvg": 12.7,
-    "MaxRH": 80.24,
-    "MinRH": 55.79,
-    "WindSpeed": 5.33
-  },
-  {
-    "Date": "07.02.2026",
-    "Generation": 66934,
-    "NetGen": null,
-    "Load": 3883.1999999999985,
-    "PLF": 0.71,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 10478,
-    "Aux": 1235,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 4.42,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 176.45833333333334,
-        "MFEQH": 4235
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 176.45833333333334,
-        "MFEQH": 4235
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 170.625,
-        "MFEQH": 4095
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 154.20833333333334,
-        "MFEQH": 3701
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 154.04166666666666,
-        "MFEQH": 3697
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 164.45833333333334,
-        "MFEQH": 3947
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 153.04166666666666,
-        "MFEQH": 3673
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 153,
-        "MFEQH": 3672
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 152.08333333333334,
-        "MFEQH": 3650
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 177.16666666666666,
-        "MFEQH": 4252
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 156.75,
-        "MFEQH": 3762
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 164.45833333333334,
-        "MFEQH": 3947
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 138.33333333333334,
-        "MFEQH": 3320
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 138.375,
-        "MFEQH": 3321
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 155.95833333333334,
-        "MFEQH": 3743
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 154.41666666666666,
-        "MFEQH": 3706
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 153.83333333333334,
-        "MFEQH": 3692
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 161.70833333333334,
-        "MFEQH": 3881
-      }
-    ],
-    "TempMax": 21.16,
-    "TempMin": null,
-    "TempAvg": 17.2,
-    "MaxRH": 84.49,
-    "MinRH": 64.84,
-    "WindSpeed": 7.96
-  },
-  {
-    "Date": "08.02.2026",
-    "Generation": 64337,
-    "NetGen": null,
-    "Load": 3883.1999999999985,
-    "PLF": 0.68,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 10136,
-    "Aux": 1282,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 5.592,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 153.29166666666666,
-        "MFEQH": 3679
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 153.375,
-        "MFEQH": 3681
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 158.625,
-        "MFEQH": 3807
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 144.16666666666666,
-        "MFEQH": 3460
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 143.95833333333334,
-        "MFEQH": 3455
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 158.54166666666666,
-        "MFEQH": 3805
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 140.75,
-        "MFEQH": 3378
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 140.75,
-        "MFEQH": 3378
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 145.54166666666666,
-        "MFEQH": 3493
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 172.66666666666666,
-        "MFEQH": 4144
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 151.5,
-        "MFEQH": 3636
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 161.70833333333334,
-        "MFEQH": 3881
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 150.875,
-        "MFEQH": 3621
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 150.91666666666666,
-        "MFEQH": 3622
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 163.375,
-        "MFEQH": 3921
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 143.5,
-        "MFEQH": 3444
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 143.375,
-        "MFEQH": 3441
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 156.45833333333334,
-        "MFEQH": 3755
-      }
-    ],
-    "TempMax": 22.9,
-    "TempMin": null,
-    "TempAvg": 18.69,
-    "MaxRH": 81.36,
-    "MinRH": 63.08,
-    "WindSpeed": 6.13
-  },
-  {
-    "Date": "09.02.2026",
-    "Generation": 65799,
-    "NetGen": null,
-    "Load": 3785.4458333333328,
-    "PLF": 0.7,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 10332,
-    "Aux": 1301,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 6.125,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 149.625,
-        "MFEQH": 3591
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 149.58333333333334,
-        "MFEQH": 3590
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 157.04166666666666,
-        "MFEQH": 3769
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 171.95833333333334,
-        "MFEQH": 4127
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 171.04166666666666,
-        "MFEQH": 4105
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 175.08333333333334,
-        "MFEQH": 4202
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 97.70833333333333,
-        "MFEQH": 2345
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 145.04166666666666,
-        "MFEQH": 3481
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 120.20833333333333,
-        "MFEQH": 2885
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 183.20833333333334,
-        "MFEQH": 4397
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 179,
-        "MFEQH": 4296
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 171.125,
-        "MFEQH": 4107
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 154.58333333333334,
-        "MFEQH": 3710
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 154.625,
-        "MFEQH": 3711
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 165.20833333333334,
-        "MFEQH": 3965
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 149.83333333333334,
-        "MFEQH": 3596
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 149.875,
-        "MFEQH": 3597
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 158.5,
-        "MFEQH": 3804
-      }
-    ],
-    "TempMax": 27.6,
-    "TempMin": null,
-    "TempAvg": 16.18,
-    "MaxRH": 85.95,
-    "MinRH": 37.81,
-    "WindSpeed": 4.2
-  },
-  {
-    "Date": "11.02.2026",
-    "Generation": 70421,
-    "NetGen": null,
-    "Load": 3883.1999999999985,
-    "PLF": null,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": null,
-    "Aux": null,
-    "MFEQH": null,
     "Emissions": {
       "NOx": null,
       "SOx": null,
-      "CO": null
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "03.02.2026",
+    "Generation": 65787,
+    "NetGen": 64471,
+    "Load": 2655,
+    "PLF": 68.37,
+    "Efficiency": 51.11,
+    "HeatRate": 7042.943661,
+    "Fuel": 9976,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "04.02.2026",
+    "Generation": 63044,
+    "NetGen": 61753,
+    "Load": 2900,
+    "PLF": 74.68,
+    "Efficiency": 49.91,
+    "HeatRate": 7213.055586,
+    "Fuel": 9764,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "05.02.2026",
+    "Generation": 64788,
+    "NetGen": 63495,
+    "Load": 2614,
+    "PLF": 67.32,
+    "Efficiency": 50.53,
+    "HeatRate": 7124.371532,
+    "Fuel": 9916,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "06.02.2026",
+    "Generation": 66989,
+    "NetGen": 65776,
+    "Load": 2972,
+    "PLF": 76.53,
+    "Efficiency": 50.47,
+    "HeatRate": 7133.142009,
+    "Fuel": 10304,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "07.02.2026",
+    "Generation": 68529,
+    "NetGen": 67294,
+    "Load": 2458,
+    "PLF": 63.3,
+    "Efficiency": 50.86,
+    "HeatRate": 7078.917119,
+    "Fuel": 10478,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "08.02.2026",
+    "Generation": 65601,
+    "NetGen": 64319,
+    "Load": 3039,
+    "PLF": 78.26,
+    "Efficiency": 50.22,
+    "HeatRate": 7168.896611,
+    "Fuel": 10136,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "09.02.2026",
+    "Generation": 67278,
+    "NetGen": 65977,
+    "Load": 3331.389429166667,
+    "PLF": 85.79,
+    "Efficiency": 50.44,
+    "HeatRate": 7136.702459,
+    "Fuel": 10332,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "10.02.2026",
+    "Generation": 71146,
+    "NetGen": 69838,
+    "Load": 2813,
+    "PLF": 72.44,
+    "Efficiency": 50.8,
+    "HeatRate": 7087.098095,
+    "Fuel": 10874,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
     },
     "Water": {
       "ROProduction": null
@@ -1451,4846 +375,442 @@
   },
   {
     "Date": "12.02.2026",
-    "Generation": 64022,
-    "NetGen": null,
-    "Load": 3735.332777777776,
-    "PLF": 0.68,
-    "Efficiency": null,
-    "HeatRate": null,
+    "Generation": 65389,
+    "NetGen": 63998,
+    "Load": 3143,
+    "PLF": 80.94,
+    "Efficiency": 48.59,
+    "HeatRate": 7408.663021,
     "Fuel": 10432,
-    "Aux": 1391,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 5.542,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 165.29166666666666,
-        "MFEQH": 3967
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 165.625,
-        "MFEQH": 3975
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 167.58333333333334,
-        "MFEQH": 4022
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 149.45833333333334,
-        "MFEQH": 3587
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 148.70833333333334,
-        "MFEQH": 3569
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 164.45833333333334,
-        "MFEQH": 3947
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 156.54166666666666,
-        "MFEQH": 3757
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 156.54166666666666,
-        "MFEQH": 3757
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 152.75,
-        "MFEQH": 3666
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 185.08333333333334,
-        "MFEQH": 4442
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 168.58333333333334,
-        "MFEQH": 4046
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 169.29166666666666,
-        "MFEQH": 4063
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 167.375,
-        "MFEQH": 4017
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 167.5,
-        "MFEQH": 4020
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 173.875,
-        "MFEQH": 4173
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 114.75,
-        "MFEQH": 2754
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 104.08333333333333,
-        "MFEQH": 2498
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 47.041666666666664,
-        "MFEQH": 1129
-      }
-    ],
-    "TempMax": 24.57,
-    "TempMin": null,
-    "TempAvg": 18.15,
-    "MaxRH": 82.68,
-    "MinRH": 55.37,
-    "WindSpeed": 7.98
-  },
-  {
-    "Date": "13.02.2026",
-    "Generation": 62215,
-    "NetGen": null,
-    "Load": 3667.466666666665,
-    "PLF": 0.66,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 10432,
-    "Aux": 1338,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 5.598,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 161,
-        "MFEQH": 3864
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 161.5,
-        "MFEQH": 3876
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 166.25,
-        "MFEQH": 3990
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 154,
-        "MFEQH": 3696
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 153,
-        "MFEQH": 3672
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 167,
-        "MFEQH": 4008
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 161.375,
-        "MFEQH": 3873
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 161.375,
-        "MFEQH": 3873
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 154.79166666666666,
-        "MFEQH": 3715
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 167,
-        "MFEQH": 4008
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 167,
-        "MFEQH": 4008
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 162.29166666666666,
-        "MFEQH": 3895
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 160.08333333333334,
-        "MFEQH": 3842
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 160.25,
-        "MFEQH": 3846
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 170.25,
-        "MFEQH": 4086
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 120.20833333333333,
-        "MFEQH": 2885
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 120.20833333333333,
-        "MFEQH": 2885
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": null,
-        "MFEQH": null
-      }
-    ],
-    "TempMax": 25.6,
-    "TempMin": null,
-    "TempAvg": 18.58,
-    "MaxRH": 79.36,
-    "MinRH": 41.9,
-    "WindSpeed": 5.06
-  },
-  {
-    "Date": "14.02.2026",
-    "Generation": 67674,
-    "NetGen": null,
-    "Load": 3667.466666666665,
-    "PLF": 0.71,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 11120,
-    "Aux": 1383,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 5.759,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 188,
-        "MFEQH": 4512
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 188.04166666666666,
-        "MFEQH": 4513
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 181.29166666666666,
-        "MFEQH": 4351
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 175,
-        "MFEQH": 4200
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 173.75,
-        "MFEQH": 4170
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 180.45833333333334,
-        "MFEQH": 4331
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 157.875,
-        "MFEQH": 3789
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 157.91666666666666,
-        "MFEQH": 3790
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 151.58333333333334,
-        "MFEQH": 3638
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 201.125,
-        "MFEQH": 4827
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 200.625,
-        "MFEQH": 4815
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 180.45833333333334,
-        "MFEQH": 4331
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 156.58333333333334,
-        "MFEQH": 3758
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 167.875,
-        "MFEQH": 4029
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 168.375,
-        "MFEQH": 4041
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 123.625,
-        "MFEQH": 2967
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 123.625,
-        "MFEQH": 2967
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": null,
-        "MFEQH": null
-      }
-    ],
-    "TempMax": 27.74,
-    "TempMin": null,
-    "TempAvg": 15.71,
-    "MaxRH": 63.95,
-    "MinRH": 21.82,
-    "WindSpeed": 6.27
-  },
-  {
-    "Date": "15.02.2026",
-    "Generation": 71669,
-    "NetGen": null,
-    "Load": 3667.466666666665,
-    "PLF": 0.76,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 11710,
-    "Aux": 1446,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 5.788,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 184.33333333333334,
-        "MFEQH": 4424
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 184.33333333333334,
-        "MFEQH": 4424
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 176.375,
-        "MFEQH": 4233
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 183.58333333333334,
-        "MFEQH": 4406
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 183,
-        "MFEQH": 4392
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 183.70833333333334,
-        "MFEQH": 4409
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 181.20833333333334,
-        "MFEQH": 4349
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 181.20833333333334,
-        "MFEQH": 4349
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 162.08333333333334,
-        "MFEQH": 3890
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 211.25,
-        "MFEQH": 5070
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 210.875,
-        "MFEQH": 5061
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 188.25,
-        "MFEQH": 4518
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 177.45833333333334,
-        "MFEQH": 4259
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 200.625,
-        "MFEQH": 4815
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 185.91666666666666,
-        "MFEQH": 4462
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 129.125,
-        "MFEQH": 3099
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 129.16666666666666,
-        "MFEQH": 3100
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": null,
-        "MFEQH": null
-      }
-    ],
-    "TempMax": 28.44,
-    "TempMin": null,
-    "TempAvg": 17.01,
-    "MaxRH": 49.63,
-    "MinRH": 25.42,
-    "WindSpeed": 9.41
-  },
-  {
-    "Date": "16.02.2026",
-    "Generation": 69142,
-    "NetGen": null,
-    "Load": 3667.466666666665,
-    "PLF": 0.73,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 11312,
-    "Aux": 1369,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 5.832,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 199.04166666666666,
-        "MFEQH": 4777
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 199.66666666666666,
-        "MFEQH": 4792
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 185.875,
-        "MFEQH": 4461
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 184.66666666666666,
-        "MFEQH": 4432
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 184,
-        "MFEQH": 4416
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 184.83333333333334,
-        "MFEQH": 4436
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 159.875,
-        "MFEQH": 3837
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 160.04166666666666,
-        "MFEQH": 3841
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 152.16666666666666,
-        "MFEQH": 3652
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 188.83333333333334,
-        "MFEQH": 4532
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 183.66666666666666,
-        "MFEQH": 4408
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 168.95833333333334,
-        "MFEQH": 4055
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 177.20833333333334,
-        "MFEQH": 4253
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 186.33333333333334,
-        "MFEQH": 4472
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 179.75,
-        "MFEQH": 4314
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 125.04166666666667,
-        "MFEQH": 3001
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 125.08333333333333,
-        "MFEQH": 3002
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": null,
-        "MFEQH": null
-      }
-    ],
-    "TempMax": 26.62,
-    "TempMin": null,
-    "TempAvg": 15.39,
-    "MaxRH": 61.05,
-    "MinRH": 26.17,
-    "WindSpeed": 10.2
-  },
-  {
-    "Date": "17.02.2026",
-    "Generation": 65656,
-    "NetGen": null,
-    "Load": 3667.466666666665,
-    "PLF": 0.7,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 10880,
-    "Aux": 1325,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 5.208,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 192.375,
-        "MFEQH": 4617
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 192.70833333333334,
-        "MFEQH": 4625
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 180.125,
-        "MFEQH": 4323
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 179.08333333333334,
-        "MFEQH": 4298
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 178.75,
-        "MFEQH": 4290
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 179.45833333333334,
-        "MFEQH": 4307
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 147.625,
-        "MFEQH": 3543
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 147.75,
-        "MFEQH": 3546
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 146.04166666666666,
-        "MFEQH": 3505
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 182.16666666666666,
-        "MFEQH": 4372
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 170.83333333333334,
-        "MFEQH": 4100
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 163.25,
-        "MFEQH": 3918
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 159.5,
-        "MFEQH": 3828
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 164.33333333333334,
-        "MFEQH": 3944
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 161.16666666666666,
-        "MFEQH": 3868
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 127.91666666666667,
-        "MFEQH": 3070
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 127.95833333333333,
-        "MFEQH": 3071
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": null,
-        "MFEQH": null
-      }
-    ],
-    "TempMax": 27.86,
-    "TempMin": null,
-    "TempAvg": 11.96,
-    "MaxRH": 87.1,
-    "MinRH": 22.13,
-    "WindSpeed": 5.64
-  },
-  {
-    "Date": "18.02.2026",
-    "Generation": 65252,
-    "NetGen": null,
-    "Load": 3667.466666666665,
-    "PLF": 0.69,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 10810,
-    "Aux": 1371,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 5.117,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 184.45833333333334,
-        "MFEQH": 4427
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 184.54166666666666,
-        "MFEQH": 4429
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 174.625,
-        "MFEQH": 4191
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 171.83333333333334,
-        "MFEQH": 4124
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 171.83333333333334,
-        "MFEQH": 4124
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 174.375,
-        "MFEQH": 4185
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 163.83333333333334,
-        "MFEQH": 3932
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 163.875,
-        "MFEQH": 3933
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 153.75,
-        "MFEQH": 3690
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 177.91666666666666,
-        "MFEQH": 4270
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 160.875,
-        "MFEQH": 3861
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 159.41666666666666,
-        "MFEQH": 3826
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 173.375,
-        "MFEQH": 4161
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 168,
-        "MFEQH": 4032
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 155.58333333333334,
-        "MFEQH": 3734
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 123.08333333333333,
-        "MFEQH": 2954
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 123.08333333333333,
-        "MFEQH": 2954
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": null,
-        "MFEQH": null
-      }
-    ],
-    "TempMax": 24.36,
-    "TempMin": null,
-    "TempAvg": 12.59,
-    "MaxRH": 89.7352,
-    "MinRH": 44.9,
-    "WindSpeed": 4.3
-  },
-  {
-    "Date": "19.02.2026",
-    "Generation": 62518,
-    "NetGen": null,
-    "Load": 3739.3777777777773,
-    "PLF": 0.66,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 10358,
-    "Aux": 1375,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 4.667,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 149.79166666666666,
-        "MFEQH": 3595
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 150.29166666666666,
-        "MFEQH": 3607
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 158.5,
-        "MFEQH": 3804
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 156.95833333333334,
-        "MFEQH": 3767
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 156.5,
-        "MFEQH": 3756
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 167.125,
-        "MFEQH": 4011
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 159.41666666666666,
-        "MFEQH": 3826
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 159.41666666666666,
-        "MFEQH": 3826
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 151.25,
-        "MFEQH": 3630
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 185.16666666666666,
-        "MFEQH": 4444
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 182.29166666666666,
-        "MFEQH": 4375
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 167.04166666666666,
-        "MFEQH": 4009
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 163.70833333333334,
-        "MFEQH": 3929
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 152.91666666666666,
-        "MFEQH": 3670
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 147.45833333333334,
-        "MFEQH": 3539
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 120.95833333333333,
-        "MFEQH": 2903
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 120.20833333333333,
-        "MFEQH": 2885
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 18.625,
-        "MFEQH": 447
-      }
-    ],
-    "TempMax": 26.28,
-    "TempMin": null,
-    "TempAvg": 12.79,
-    "MaxRH": 97.41,
-    "MinRH": 28.97,
-    "WindSpeed": 4.24
-  },
-  {
-    "Date": "20.02.2026",
-    "Generation": 66103,
-    "NetGen": null,
-    "Load": 3883.1999999999985,
-    "PLF": 0.7,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 10384,
-    "Aux": 1351,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 4.165,
-      "SOx": -32.41,
-      "CO": -46.295
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 4.686,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 164.54166666666666,
-        "MFEQH": 3949
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 164.54166666666666,
-        "MFEQH": 3949
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 163.41666666666666,
-        "MFEQH": 3922
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 154.625,
-        "MFEQH": 3711
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 154.66666666666666,
-        "MFEQH": 3712
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 163.16666666666666,
-        "MFEQH": 3916
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 151.79166666666666,
-        "MFEQH": 3643
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 151.79166666666666,
-        "MFEQH": 3643
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 147.375,
-        "MFEQH": 3537
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 172.58333333333334,
-        "MFEQH": 4142
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 152.58333333333334,
-        "MFEQH": 3662
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 155.16666666666666,
-        "MFEQH": 3724
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 168.5,
-        "MFEQH": 4044
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 164.16666666666666,
-        "MFEQH": 3940
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 154.375,
-        "MFEQH": 3705
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 139.5,
-        "MFEQH": 3348
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 139.625,
-        "MFEQH": 3351
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 156.20833333333334,
-        "MFEQH": 3749
-      }
-    ],
-    "TempMax": 26.64,
-    "TempMin": null,
-    "TempAvg": 14.66,
-    "MaxRH": 82.1,
-    "MinRH": 33.82,
-    "WindSpeed": 3.9
-  },
-  {
-    "Date": "21.02.2026",
-    "Generation": 64104,
-    "NetGen": null,
-    "Load": 3830.3902777777766,
-    "PLF": 0.68,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 10128,
-    "Aux": 1306,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 10.05,
-      "SOx": 0.445,
-      "CO": 0.09
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 4.997,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 157.16666666666666,
-        "MFEQH": 3772
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 157.16666666666666,
-        "MFEQH": 3772
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 159.66666666666666,
-        "MFEQH": 3832
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 117.79166666666667,
-        "MFEQH": 2827
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 141.41666666666666,
-        "MFEQH": 3394
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 140.16666666666666,
-        "MFEQH": 3364
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 162.20833333333334,
-        "MFEQH": 3893
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 162.20833333333334,
-        "MFEQH": 3893
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 152.375,
-        "MFEQH": 3657
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 174.58333333333334,
-        "MFEQH": 4190
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 158.91666666666666,
-        "MFEQH": 3814
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 157.5,
-        "MFEQH": 3780
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 162,
-        "MFEQH": 3888
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 143.08333333333334,
-        "MFEQH": 3434
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 152.16666666666666,
-        "MFEQH": 3652
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 140.91666666666666,
-        "MFEQH": 3382
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 140.54166666666666,
-        "MFEQH": 3373
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 156.5,
-        "MFEQH": 3756
-      }
-    ],
-    "TempMax": 26.94,
-    "TempMin": null,
-    "TempAvg": 13.46,
-    "MaxRH": 82.9,
-    "MinRH": 35.12,
-    "WindSpeed": 4.49
-  },
-  {
-    "Date": "22.02.2026",
-    "Generation": 65790,
-    "NetGen": null,
-    "Load": 3883.1999999999985,
-    "PLF": 0.7,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 10298,
-    "Aux": 1298,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 18.46,
-      "SOx": 5.135,
-      "CO": 4.9
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 5.403,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 153.125,
-        "MFEQH": 3675
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 153.08333333333334,
-        "MFEQH": 3674
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 157.91666666666666,
-        "MFEQH": 3790
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 164.70833333333334,
-        "MFEQH": 3953
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 164.79166666666666,
-        "MFEQH": 3955
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 170.875,
-        "MFEQH": 4101
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 161.625,
-        "MFEQH": 3879
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 161.625,
-        "MFEQH": 3879
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 152.20833333333334,
-        "MFEQH": 3653
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 172.625,
-        "MFEQH": 4143
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 144.91666666666666,
-        "MFEQH": 3478
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 154.04166666666666,
-        "MFEQH": 3697
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 159,
-        "MFEQH": 3816
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 138.54166666666666,
-        "MFEQH": 3325
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 150.08333333333334,
-        "MFEQH": 3602
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 142.66666666666666,
-        "MFEQH": 3424
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 142.70833333333334,
-        "MFEQH": 3425
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 157.41666666666666,
-        "MFEQH": 3778
-      }
-    ],
-    "TempMax": 26.66,
-    "TempMin": null,
-    "TempAvg": 14.16,
-    "MaxRH": 82.23,
-    "MinRH": 27.48,
-    "WindSpeed": 4.34
-  },
-  {
-    "Date": "23.02.2026",
-    "Generation": 71148,
-    "NetGen": null,
-    "Load": 3876.2336111111094,
-    "PLF": 0.75,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 11034,
-    "Aux": 1390,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 18.46,
-      "SOx": 5.145,
-      "CO": 4.895
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 6.244,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 182.04166666666666,
-        "MFEQH": 4369
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 182.70833333333334,
-        "MFEQH": 4385
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 176.875,
-        "MFEQH": 4245
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 178.04166666666666,
-        "MFEQH": 4273
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 177.25,
-        "MFEQH": 4254
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 180.70833333333334,
-        "MFEQH": 4337
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 155.95833333333334,
-        "MFEQH": 3743
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 156,
-        "MFEQH": 3744
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 148.66666666666666,
-        "MFEQH": 3568
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 173.75,
-        "MFEQH": 4170
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 167.45833333333334,
-        "MFEQH": 4019
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 162.54166666666666,
-        "MFEQH": 3901
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 162.16666666666666,
-        "MFEQH": 3892
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 169,
-        "MFEQH": 4056
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 157.91666666666666,
-        "MFEQH": 3790
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 164.83333333333334,
-        "MFEQH": 3956
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 163.33333333333334,
-        "MFEQH": 3920
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 172.54166666666666,
-        "MFEQH": 4141
-      }
-    ],
-    "TempMax": 28.22,
-    "TempMin": null,
-    "TempAvg": 13.7,
-    "MaxRH": 80.93,
-    "MinRH": 35.39,
-    "WindSpeed": 3.94
-  },
-  {
-    "Date": "24.02.2026",
-    "Generation": 66296,
-    "NetGen": null,
-    "Load": 3652.6349999999984,
-    "PLF": 0.7,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 10428,
-    "Aux": 1378,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 18.46,
-      "SOx": 5.145,
-      "CO": 4.895
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 5.407,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 191.20833333333334,
-        "MFEQH": 4589
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 191.54166666666666,
-        "MFEQH": 4597
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 177.20833333333334,
-        "MFEQH": 4253
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 191.875,
-        "MFEQH": 4605
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 191.125,
-        "MFEQH": 4587
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 188.25,
-        "MFEQH": 4518
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 168.5,
-        "MFEQH": 4044
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 168.45833333333334,
-        "MFEQH": 4043
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 154.41666666666666,
-        "MFEQH": 3706
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 176.25,
-        "MFEQH": 4230
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 175.16666666666666,
-        "MFEQH": 4204
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 162.5,
-        "MFEQH": 3900
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 30.291666666666668,
-        "MFEQH": 727
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 94.83333333333333,
-        "MFEQH": 2276
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 66.25,
-        "MFEQH": 1590
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 166.625,
-        "MFEQH": 3999
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 166.16666666666666,
-        "MFEQH": 3988
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 170.91666666666666,
-        "MFEQH": 4102
-      }
-    ],
-    "TempMax": 29.8,
-    "TempMin": null,
-    "TempAvg": 15.1,
-    "MaxRH": 72.95,
-    "MinRH": 13.45,
-    "WindSpeed": 6.91
-  },
-  {
-    "Date": "25.02.2026",
-    "Generation": 64732,
-    "NetGen": null,
-    "Load": 3561.622500000001,
-    "PLF": 0.69,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 9988,
-    "Aux": 1387,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 18.46,
-      "SOx": 5.145,
-      "CO": 4.895
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 5.782,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 174.16666666666666,
-        "MFEQH": 4180
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 174.20833333333334,
-        "MFEQH": 4181
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 168.08333333333334,
-        "MFEQH": 4034
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 175.08333333333334,
-        "MFEQH": 4202
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 176.29166666666666,
-        "MFEQH": 4231
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 175.54166666666666,
-        "MFEQH": 4213
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 167.25,
-        "MFEQH": 4014
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 167.29166666666666,
-        "MFEQH": 4015
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 153.45833333333334,
-        "MFEQH": 3683
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 175.125,
-        "MFEQH": 4203
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 174.45833333333334,
-        "MFEQH": 4187
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 160.66666666666666,
-        "MFEQH": 3856
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 143.91666666666666,
-        "MFEQH": 3454
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 0.125,
-        "MFEQH": 3
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 73.08333333333333,
-        "MFEQH": 1754
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 167.58333333333334,
-        "MFEQH": 4022
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 167.66666666666666,
-        "MFEQH": 4024
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 169.58333333333334,
-        "MFEQH": 4070
-      }
-    ],
-    "TempMax": 26.44,
-    "TempMin": null,
-    "TempAvg": 14.85,
-    "MaxRH": 64.72,
-    "MinRH": 14.92,
-    "WindSpeed": 11.91
-  },
-  {
-    "Date": "26.02.2026",
-    "Generation": 63574,
-    "NetGen": null,
-    "Load": 3626.7919444444433,
-    "PLF": 0.67,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 9856,
-    "Aux": 1387,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 18.46,
-      "SOx": 5.145,
-      "CO": 4.895
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 4.583,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 164,
-        "MFEQH": 3936
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 164,
-        "MFEQH": 3936
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 163.375,
-        "MFEQH": 3921
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 178,
-        "MFEQH": 4272
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 179.45833333333334,
-        "MFEQH": 4307
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 176.79166666666666,
-        "MFEQH": 4243
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 142.33333333333334,
-        "MFEQH": 3416
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 142.33333333333334,
-        "MFEQH": 3416
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 141.125,
-        "MFEQH": 3387
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 160.875,
-        "MFEQH": 3861
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 159.04166666666666,
-        "MFEQH": 3817
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 152.25,
-        "MFEQH": 3654
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 161.04166666666666,
-        "MFEQH": 3865
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 17.125,
-        "MFEQH": 411
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 86.70833333333333,
-        "MFEQH": 2081
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 175.04166666666666,
-        "MFEQH": 4201
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 174.75,
-        "MFEQH": 4194
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 174.79166666666666,
-        "MFEQH": 4195
-      }
-    ],
-    "TempMax": 26.38,
-    "TempMin": null,
-    "TempAvg": 11.78,
-    "MaxRH": 71.16,
-    "MinRH": 16.28,
-    "WindSpeed": 7.55
-  },
-  {
-    "Date": "27.02.2026",
-    "Generation": 64938,
-    "NetGen": null,
-    "Load": 3883.1999999999985,
-    "PLF": 0.69,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 10074,
-    "Aux": 1345,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 18.46,
-      "SOx": 5.145,
-      "CO": 4.895
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 5.975,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 158.79166666666666,
-        "MFEQH": 3811
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 158.79166666666666,
-        "MFEQH": 3811
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 160.33333333333334,
-        "MFEQH": 3848
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 163.625,
-        "MFEQH": 3927
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 163.625,
-        "MFEQH": 3927
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 168.625,
-        "MFEQH": 4047
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 142.04166666666666,
-        "MFEQH": 3409
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 141.95833333333334,
-        "MFEQH": 3407
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 141.375,
-        "MFEQH": 3393
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 160.83333333333334,
-        "MFEQH": 3860
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 160.625,
-        "MFEQH": 3855
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 153,
-        "MFEQH": 3672
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 149.66666666666666,
-        "MFEQH": 3592
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 138.08333333333334,
-        "MFEQH": 3314
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 156.83333333333334,
-        "MFEQH": 3764
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 145.79166666666666,
-        "MFEQH": 3499
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 145.875,
-        "MFEQH": 3501
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 156.83333333333334,
-        "MFEQH": 3764
-      }
-    ],
-    "TempMax": 24.39,
-    "TempMin": null,
-    "TempAvg": 12.02,
-    "MaxRH": 65.36,
-    "MinRH": 21.25,
-    "WindSpeed": 5.37
-  },
-  {
-    "Date": "28.02.2026",
-    "Generation": 60598,
-    "NetGen": null,
-    "Load": 3883.1999999999985,
-    "PLF": 0.65,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 9568,
-    "Aux": 1304,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 18.46,
-      "SOx": 5.145,
-      "CO": 4.895
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 4.134,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 141.875,
-        "MFEQH": 3405
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 141.625,
-        "MFEQH": 3399
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 151.29166666666666,
-        "MFEQH": 3631
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 145.54166666666666,
-        "MFEQH": 3493
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 145.41666666666666,
-        "MFEQH": 3490
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 157.875,
-        "MFEQH": 3789
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 130.25,
-        "MFEQH": 3126
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 130.25,
-        "MFEQH": 3126
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 135.54166666666666,
-        "MFEQH": 3253
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 132.625,
-        "MFEQH": 3183
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 132.70833333333334,
-        "MFEQH": 3185
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 139.16666666666666,
-        "MFEQH": 3340
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 165.79166666666666,
-        "MFEQH": 3979
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 150.29166666666666,
-        "MFEQH": 3607
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 165,
-        "MFEQH": 3960
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 140.70833333333334,
-        "MFEQH": 3377
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 139.5,
-        "MFEQH": 3348
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 153.75,
-        "MFEQH": 3690
-      }
-    ],
-    "TempMax": 25.79,
-    "TempMin": null,
-    "TempAvg": 16.75,
-    "MaxRH": 83.98,
-    "MinRH": 26.8,
-    "WindSpeed": 5.58
-  },
-  {
-    "Date": "01.03.2026",
-    "Generation": 53610,
-    "NetGen": null,
-    "Load": 3883.1999999999985,
-    "PLF": 0.57,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 8628,
-    "Aux": 1275,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 18.46,
-      "SOx": -9.58,
-      "CO": 4.94
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 3.711,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 120.375,
-        "MFEQH": 2889
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 120.33333333333333,
-        "MFEQH": 2888
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 139.08333333333334,
-        "MFEQH": 3338
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 120.16666666666667,
-        "MFEQH": 2884
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 120.125,
-        "MFEQH": 2883
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 141.95833333333334,
-        "MFEQH": 3407
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 119.91666666666667,
-        "MFEQH": 2878
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 120,
-        "MFEQH": 2880
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 130.54166666666666,
-        "MFEQH": 3133
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 120.95833333333333,
-        "MFEQH": 2903
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 120.95833333333333,
-        "MFEQH": 2903
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 133.04166666666666,
-        "MFEQH": 3193
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 136.875,
-        "MFEQH": 3285
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 122.875,
-        "MFEQH": 2949
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 148.08333333333334,
-        "MFEQH": 3554
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 120.625,
-        "MFEQH": 2895
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 119.95833333333333,
-        "MFEQH": 2879
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 142.41666666666666,
-        "MFEQH": 3418
-      }
-    ],
-    "TempMax": 23.37,
-    "TempMin": null,
-    "TempAvg": 16.33,
-    "MaxRH": 77.6,
-    "MinRH": 45.9,
-    "WindSpeed": 7.97
-  },
-  {
-    "Date": "02.03.2026",
-    "Generation": 53341,
-    "NetGen": null,
-    "Load": 3883.1999999999985,
-    "PLF": 0.57,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 8664,
-    "Aux": 1259,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 18.46,
-      "SOx": 5.145,
-      "CO": 4.895
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 3.786,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 121.29166666666667,
-        "MFEQH": 2911
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 121.29166666666667,
-        "MFEQH": 2911
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 139.95833333333334,
-        "MFEQH": 3359
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 119.79166666666667,
-        "MFEQH": 2875
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 119.75,
-        "MFEQH": 2874
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 141.83333333333334,
-        "MFEQH": 3404
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 119.875,
-        "MFEQH": 2877
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 119.79166666666667,
-        "MFEQH": 2875
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 130.45833333333334,
-        "MFEQH": 3131
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 119.75,
-        "MFEQH": 2874
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 119.75,
-        "MFEQH": 2874
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 132.75,
-        "MFEQH": 3186
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 132.45833333333334,
-        "MFEQH": 3179
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 119.75,
-        "MFEQH": 2874
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 146.41666666666666,
-        "MFEQH": 3514
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 120.125,
-        "MFEQH": 2883
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 120.25,
-        "MFEQH": 2886
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 142.54166666666666,
-        "MFEQH": 3421
-      }
-    ],
-    "TempMax": 24.42,
-    "TempMin": null,
-    "TempAvg": 16.16,
-    "MaxRH": 67.2,
-    "MinRH": 44.63,
-    "WindSpeed": 7.88
-  },
-  {
-    "Date": "03.03.2026",
-    "Generation": 53625,
-    "NetGen": null,
-    "Load": 3565.4427777777782,
-    "PLF": 0.57,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 8714,
-    "Aux": 1239,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 18.46,
-      "SOx": 5.145,
-      "CO": 4.895
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 6.68,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 124.625,
-        "MFEQH": 2991
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 124.625,
-        "MFEQH": 2991
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 141.95833333333334,
-        "MFEQH": 3407
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 128.83333333333334,
-        "MFEQH": 3092
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 128.875,
-        "MFEQH": 3093
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 146.79166666666666,
-        "MFEQH": 3523
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 119.66666666666667,
-        "MFEQH": 2872
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 119.66666666666667,
-        "MFEQH": 2872
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 130.54166666666666,
-        "MFEQH": 3133
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 119.58333333333333,
-        "MFEQH": 2870
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 119.625,
-        "MFEQH": 2871
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 133.08333333333334,
-        "MFEQH": 3194
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 0.625,
-        "MFEQH": 15
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 119.625,
-        "MFEQH": 2871
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 68.16666666666667,
-        "MFEQH": 1636
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 194.20833333333334,
-        "MFEQH": 4661
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 193.54166666666666,
-        "MFEQH": 4645
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 185.41666666666666,
-        "MFEQH": 4450
-      }
-    ],
-    "TempMax": 20.78,
-    "TempMin": null,
-    "TempAvg": 15.72,
-    "MaxRH": 96.53,
-    "MinRH": 59.7,
-    "WindSpeed": 9.81
-  },
-  {
-    "Date": "04.03.2026",
-    "Generation": 52949,
-    "NetGen": null,
-    "Load": 3756.4541666666646,
-    "PLF": 0.56,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 8660,
-    "Aux": 1259,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 18.46,
-      "SOx": 5.145,
-      "CO": 4.895
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 3.365,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 131.45833333333334,
-        "MFEQH": 3155
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 131.41666666666666,
-        "MFEQH": 3154
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 145.54166666666666,
-        "MFEQH": 3493
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 131.91666666666666,
-        "MFEQH": 3166
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 131.83333333333334,
-        "MFEQH": 3164
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 148.79166666666666,
-        "MFEQH": 3571
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 119.875,
-        "MFEQH": 2877
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 119.875,
-        "MFEQH": 2877
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 130.625,
-        "MFEQH": 3135
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 119.79166666666667,
-        "MFEQH": 2875
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 119.83333333333333,
-        "MFEQH": 2876
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 133.25,
-        "MFEQH": 3198
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 65.41666666666667,
-        "MFEQH": 1570
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 119.79166666666667,
-        "MFEQH": 2875
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 105.95833333333333,
-        "MFEQH": 2543
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 132.66666666666666,
-        "MFEQH": 3184
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 132.79166666666666,
-        "MFEQH": 3187
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 149.79166666666666,
-        "MFEQH": 3595
-      }
-    ],
-    "TempMax": 21.18,
-    "TempMin": null,
-    "TempAvg": 13.06,
-    "MaxRH": 95.78,
-    "MinRH": 41.29,
-    "WindSpeed": 8.4
-  },
-  {
-    "Date": "05.03.2026",
-    "Generation": 53305,
-    "NetGen": null,
-    "Load": 3883.1999999999985,
-    "PLF": 0.57,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 8732,
-    "Aux": 1255,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 18.46,
-      "SOx": 5.145,
-      "CO": 4.895
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 3.38,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 119.83333333333333,
-        "MFEQH": 2876
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 119.79166666666667,
-        "MFEQH": 2875
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 139.58333333333334,
-        "MFEQH": 3350
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 125.91666666666667,
-        "MFEQH": 3022
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 125.875,
-        "MFEQH": 3021
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 145.375,
-        "MFEQH": 3489
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 119.83333333333333,
-        "MFEQH": 2876
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 119.875,
-        "MFEQH": 2877
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 130.91666666666666,
-        "MFEQH": 3142
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 119.75,
-        "MFEQH": 2874
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 119.79166666666667,
-        "MFEQH": 2875
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 133.125,
-        "MFEQH": 3195
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 119.79166666666667,
-        "MFEQH": 2875
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 119.79166666666667,
-        "MFEQH": 2875
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 142.625,
-        "MFEQH": 3423
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 119.79166666666667,
-        "MFEQH": 2875
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 119.875,
-        "MFEQH": 2877
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 142.75,
-        "MFEQH": 3426
-      }
-    ],
-    "TempMax": 23.77,
-    "TempMin": null,
-    "TempAvg": 11.4,
-    "MaxRH": 77.23,
-    "MinRH": 15.34,
-    "WindSpeed": 6.01
-  },
-  {
-    "Date": "06.03.2026",
-    "Generation": 53563,
-    "NetGen": null,
-    "Load": 3883.1999999999985,
-    "PLF": 0.57,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 8736,
-    "Aux": 1222,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 18.46,
-      "SOx": 5.145,
-      "CO": 4.895
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 3.505,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 119.91666666666667,
-        "MFEQH": 2878
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 119.91666666666667,
-        "MFEQH": 2878
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 139.08333333333334,
-        "MFEQH": 3338
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 129.875,
-        "MFEQH": 3117
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 129.875,
-        "MFEQH": 3117
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 147.66666666666666,
-        "MFEQH": 3544
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 119.91666666666667,
-        "MFEQH": 2878
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 119.95833333333333,
-        "MFEQH": 2879
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 131,
-        "MFEQH": 3144
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 119.875,
-        "MFEQH": 2877
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 119.875,
-        "MFEQH": 2877
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 133.58333333333334,
-        "MFEQH": 3206
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 119.91666666666667,
-        "MFEQH": 2878
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 119.875,
-        "MFEQH": 2877
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 142.58333333333334,
-        "MFEQH": 3422
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 119.875,
-        "MFEQH": 2877
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 119.91666666666667,
-        "MFEQH": 2878
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 142.875,
-        "MFEQH": 3429
-      }
-    ],
-    "TempMax": 24.78,
-    "TempMin": null,
-    "TempAvg": 11.34,
-    "MaxRH": 75.64,
-    "MinRH": 28.21,
-    "WindSpeed": 6.54
-  },
-  {
-    "Date": "07.03.2026",
-    "Generation": 53581,
-    "NetGen": null,
-    "Load": 3883.1999999999985,
-    "PLF": 0.57,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 8724,
-    "Aux": 1217,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 18.46,
-      "SOx": 5.145,
-      "CO": 4.895
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 3.53,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 119.83333333333333,
-        "MFEQH": 2876
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 119.83333333333333,
-        "MFEQH": 2876
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 140.04166666666666,
-        "MFEQH": 3361
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 129.91666666666666,
-        "MFEQH": 3118
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 129.875,
-        "MFEQH": 3117
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 147.625,
-        "MFEQH": 3543
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 119.91666666666667,
-        "MFEQH": 2878
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 119.91666666666667,
-        "MFEQH": 2878
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 130.83333333333334,
-        "MFEQH": 3140
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 119.83333333333333,
-        "MFEQH": 2876
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 119.91666666666667,
-        "MFEQH": 2878
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 133.625,
-        "MFEQH": 3207
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 119.91666666666667,
-        "MFEQH": 2878
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 119.875,
-        "MFEQH": 2877
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 142.5,
-        "MFEQH": 3420
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 119.875,
-        "MFEQH": 2877
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 119.95833333333333,
-        "MFEQH": 2879
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 143.04166666666666,
-        "MFEQH": 3433
-      }
-    ],
-    "TempMax": 26.94,
-    "TempMin": null,
-    "TempAvg": 12.79,
-    "MaxRH": 89.02,
-    "MinRH": 24.52,
-    "WindSpeed": 4.41
-  },
-  {
-    "Date": "08.03.2026",
-    "Generation": 53630,
-    "NetGen": null,
-    "Load": 3692.0763888888887,
-    "PLF": 0.57,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 8718,
-    "Aux": 1204,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 18.46,
-      "SOx": 5.145,
-      "CO": 4.895
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 4.349,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 137.45833333333334,
-        "MFEQH": 3299
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 137.5,
-        "MFEQH": 3300
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 149.375,
-        "MFEQH": 3585
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 145,
-        "MFEQH": 3480
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 144.91666666666666,
-        "MFEQH": 3478
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 156.45833333333334,
-        "MFEQH": 3755
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": 68.29166666666667,
-        "MFEQH": 1639
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": 80.33333333333333,
-        "MFEQH": 1928
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": 78.875,
-        "MFEQH": 1893
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 119.625,
-        "MFEQH": 2871
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 119.66666666666667,
-        "MFEQH": 2872
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 133.375,
-        "MFEQH": 3201
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 124.04166666666667,
-        "MFEQH": 2977
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 130.08333333333334,
-        "MFEQH": 3122
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 145.625,
-        "MFEQH": 3495
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 136.29166666666666,
-        "MFEQH": 3271
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 136.33333333333334,
-        "MFEQH": 3272
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 151.70833333333334,
-        "MFEQH": 3641
-      }
-    ],
-    "TempMax": 26.08,
-    "TempMin": null,
-    "TempAvg": 17.03,
-    "MaxRH": 87.5,
-    "MinRH": 36.32,
-    "WindSpeed": 6.58
-  },
-  {
-    "Date": "09.03.2026",
-    "Generation": 53525,
-    "NetGen": null,
-    "Load": 3235.9999999999995,
-    "PLF": 0.57,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 8456,
-    "Aux": 1228,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 18.46,
-      "SOx": 5.145,
-      "CO": 4.895
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 4.35,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 164.95833333333334,
-        "MFEQH": 3959
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 164.95833333333334,
-        "MFEQH": 3959
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 164.375,
-        "MFEQH": 3945
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 168.875,
-        "MFEQH": 4053
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 168.91666666666666,
-        "MFEQH": 4054
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 169.75,
-        "MFEQH": 4074
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": null,
-        "MFEQH": null
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": null,
-        "MFEQH": null
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": null,
-        "MFEQH": null
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 123,
-        "MFEQH": 2952
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 123.04166666666667,
-        "MFEQH": 2953
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 134.70833333333334,
-        "MFEQH": 3233
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 130,
-        "MFEQH": 3120
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 145,
-        "MFEQH": 3480
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 150.54166666666666,
-        "MFEQH": 3613
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 159.95833333333334,
-        "MFEQH": 3839
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 160.04166666666666,
-        "MFEQH": 3841
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 164.25,
-        "MFEQH": 3942
-      }
-    ],
-    "TempMax": 23.48,
-    "TempMin": null,
-    "TempAvg": 17.89,
-    "MaxRH": 86.02,
-    "MinRH": 67.37,
-    "WindSpeed": 8.1
-  },
-  {
-    "Date": "10.03.2026",
-    "Generation": 53910,
-    "NetGen": null,
-    "Load": 3235.9999999999995,
-    "PLF": 0.57,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 8518,
-    "Aux": 1096,
-    "MFEQH": null,
-    "Emissions": {
-      "NOx": 18.46,
-      "SOx": 5.145,
-      "CO": 4.895
-    },
-    "Water": {
-      "ROProduction": null
-    },
-    "AirIntakeDP": 4.75,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 164.66666666666666,
-        "MFEQH": 3952
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 164.70833333333334,
-        "MFEQH": 3953
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 164.375,
-        "MFEQH": 3945
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 167.70833333333334,
-        "MFEQH": 4025
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 167.70833333333334,
-        "MFEQH": 4025
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 168.125,
-        "MFEQH": 4035
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": null,
-        "MFEQH": null
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": null,
-        "MFEQH": null
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": null,
-        "MFEQH": null
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 129.70833333333334,
-        "MFEQH": 3113
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 129.79166666666666,
-        "MFEQH": 3115
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 137.125,
-        "MFEQH": 3291
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 129.79166666666666,
-        "MFEQH": 3115
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 144.70833333333334,
-        "MFEQH": 3473
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 150.08333333333334,
-        "MFEQH": 3602
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 159.66666666666666,
-        "MFEQH": 3832
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 159.79166666666666,
-        "MFEQH": 3835
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 163.875,
-        "MFEQH": 3933
-      }
-    ],
-    "TempMax": 19.3,
-    "TempMin": null,
-    "TempAvg": 16.1,
-    "MaxRH": 88.22,
-    "MinRH": 74.67,
-    "WindSpeed": 8.87
-  },
-  {
-    "Date": "11.03.2026",
-    "Generation": 53653,
-    "NetGen": null,
-    "Load": 3235.9999999999995,
-    "PLF": 0.57,
-    "Efficiency": null,
-    "HeatRate": null,
-    "Fuel": 8538,
-    "Aux": 1121,
-    "MFEQH": null,
     "Emissions": {
       "NOx": null,
       "SOx": null,
-      "CO": null
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
     },
     "Water": {
       "ROProduction": null
     },
-    "AirIntakeDP": 4.315,
-    "Units": [
-      {
-        "Group": "G1",
-        "Unit": "11",
-        "Type": "GT",
-        "Load": 11,
-        "Generation": 162.54166666666666,
-        "MFEQH": 3901
-      },
-      {
-        "Group": "G1",
-        "Unit": "12",
-        "Type": "GT",
-        "Load": 12,
-        "Generation": 162.5,
-        "MFEQH": 3900
-      },
-      {
-        "Group": "G1",
-        "Unit": "10",
-        "Type": "ST",
-        "Load": 10,
-        "Generation": 163.375,
-        "MFEQH": 3921
-      },
-      {
-        "Group": "G2",
-        "Unit": "21",
-        "Type": "GT",
-        "Load": 21,
-        "Generation": 160.20833333333334,
-        "MFEQH": 3845
-      },
-      {
-        "Group": "G2",
-        "Unit": "23",
-        "Type": "GT",
-        "Load": 22,
-        "Generation": 167.875,
-        "MFEQH": 4029
-      },
-      {
-        "Group": "G2",
-        "Unit": "20",
-        "Type": "ST",
-        "Load": 20,
-        "Generation": 166.875,
-        "MFEQH": 4005
-      },
-      {
-        "Group": "G3",
-        "Unit": "31",
-        "Type": "GT",
-        "Load": 31,
-        "Generation": null,
-        "MFEQH": null
-      },
-      {
-        "Group": "G3",
-        "Unit": "32",
-        "Type": "GT",
-        "Load": 32,
-        "Generation": null,
-        "MFEQH": null
-      },
-      {
-        "Group": "G3",
-        "Unit": "30",
-        "Type": "ST",
-        "Load": 30,
-        "Generation": null,
-        "MFEQH": null
-      },
-      {
-        "Group": "G4",
-        "Unit": "41",
-        "Type": "GT",
-        "Load": 41,
-        "Generation": 129.95833333333334,
-        "MFEQH": 3119
-      },
-      {
-        "Group": "G4",
-        "Unit": "42",
-        "Type": "GT",
-        "Load": 42,
-        "Generation": 130,
-        "MFEQH": 3120
-      },
-      {
-        "Group": "G4",
-        "Unit": "40",
-        "Type": "ST",
-        "Load": 40,
-        "Generation": 139.625,
-        "MFEQH": 3351
-      },
-      {
-        "Group": "G5",
-        "Unit": "51",
-        "Type": "GT",
-        "Load": 51,
-        "Generation": 129.95833333333334,
-        "MFEQH": 3119
-      },
-      {
-        "Group": "G5",
-        "Unit": "52",
-        "Type": "GT",
-        "Load": 52,
-        "Generation": 145,
-        "MFEQH": 3480
-      },
-      {
-        "Group": "G5",
-        "Unit": "50",
-        "Type": "ST",
-        "Load": 50,
-        "Generation": 150,
-        "MFEQH": 3600
-      },
-      {
-        "Group": "G6",
-        "Unit": "61",
-        "Type": "GT",
-        "Load": 61,
-        "Generation": 160,
-        "MFEQH": 3840
-      },
-      {
-        "Group": "G6",
-        "Unit": "62",
-        "Type": "GT",
-        "Load": 62,
-        "Generation": 159.95833333333334,
-        "MFEQH": 3839
-      },
-      {
-        "Group": "G6",
-        "Unit": "60",
-        "Type": "ST",
-        "Load": 60,
-        "Generation": 164.25,
-        "MFEQH": 3942
-      }
-    ],
-    "TempMax": 23.42,
-    "TempMin": null,
-    "TempAvg": 15.37,
-    "MaxRH": 89.54,
-    "MinRH": 60.08,
-    "WindSpeed": 5.45
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "13.02.2026",
+    "Generation": 64022,
+    "NetGen": 62684,
+    "Load": 2518,
+    "PLF": 64.84,
+    "Efficiency": 47.8,
+    "HeatRate": 7531.796159,
+    "Fuel": 10432,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "14.02.2026",
+    "Generation": 69029,
+    "NetGen": 67646,
+    "Load": 3209,
+    "PLF": 82.64,
+    "Efficiency": 48.31,
+    "HeatRate": 7451.416542,
+    "Fuel": 11120,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "15.02.2026",
+    "Generation": 73260,
+    "NetGen": 71814,
+    "Load": 3295,
+    "PLF": 84.85,
+    "Efficiency": 48.71,
+    "HeatRate": 7390.402827,
+    "Fuel": 11710,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "16.02.2026",
+    "Generation": 70681,
+    "NetGen": 69312,
+    "Load": 3238,
+    "PLF": 83.38,
+    "Efficiency": 48.65,
+    "HeatRate": 7400.106362,
+    "Fuel": 11312,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "17.02.2026",
+    "Generation": 67225,
+    "NetGen": 65900,
+    "Load": 2752,
+    "PLF": 70.87,
+    "Efficiency": 48.09,
+    "HeatRate": 7485.307657,
+    "Fuel": 10880,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "18.02.2026",
+    "Generation": 66827,
+    "NetGen": 65456,
+    "Load": 2882,
+    "PLF": 74.22,
+    "Efficiency": 47.83,
+    "HeatRate": 7526.616402,
+    "Fuel": 10810,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "19.02.2026",
+    "Generation": 64023,
+    "NetGen": 62648,
+    "Load": 3087,
+    "PLF": 79.5,
+    "Efficiency": 47.73,
+    "HeatRate": 7543.178664,
+    "Fuel": 10358,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "20.02.2026",
+    "Generation": 67647,
+    "NetGen": 66296,
+    "Load": 3010,
+    "PLF": 77.51,
+    "Efficiency": 50.38,
+    "HeatRate": 7145.030288,
+    "Fuel": 10384,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "21.02.2026",
+    "Generation": 65673,
+    "NetGen": 64367,
+    "Load": 2766,
+    "PLF": 71.23,
+    "Efficiency": 50.11,
+    "HeatRate": 7184.496403,
+    "Fuel": 10128,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "22.02.2026",
+    "Generation": 67247,
+    "NetGen": 65949,
+    "Load": 3403,
+    "PLF": 87.63,
+    "Efficiency": 50.43,
+    "HeatRate": 7138.878594,
+    "Fuel": 10298,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "23.02.2026",
+    "Generation": 72763,
+    "NetGen": 71373,
+    "Load": 3331.389429166667,
+    "PLF": 85.79,
+    "Efficiency": 50.68,
+    "HeatRate": 7102.802219,
+    "Fuel": 11034,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "24.02.2026",
+    "Generation": 67958,
+    "NetGen": 66580,
+    "Load": 3091,
+    "PLF": 79.6,
+    "Efficiency": 49.87,
+    "HeatRate": 7218.797879,
+    "Fuel": 10428,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "25.02.2026",
+    "Generation": 66326,
+    "NetGen": 64939,
+    "Load": 3063,
+    "PLF": 78.88,
+    "Efficiency": 50.74,
+    "HeatRate": 7095.019073,
+    "Fuel": 9988,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "26.02.2026",
+    "Generation": 65113,
+    "NetGen": 63726,
+    "Load": 2811,
+    "PLF": 72.39,
+    "Efficiency": 50.41,
+    "HeatRate": 7141.956624,
+    "Fuel": 9856,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "27.02.2026",
+    "Generation": 66401,
+    "NetGen": 65056,
+    "Load": 3406,
+    "PLF": 87.71,
+    "Efficiency": 50.36,
+    "HeatRate": 7147.983039,
+    "Fuel": 10074,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "28.02.2026",
+    "Generation": 62381,
+    "NetGen": 61077,
+    "Load": 2333,
+    "PLF": 60.08,
+    "Efficiency": 50.01,
+    "HeatRate": 7198.393791,
+    "Fuel": 9568,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "01.03.2026",
+    "Generation": 55159,
+    "NetGen": 53884,
+    "Load": 2275,
+    "PLF": 58.59,
+    "Efficiency": 48.84,
+    "HeatRate": 7371.044317,
+    "Fuel": 8628,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "02.03.2026",
+    "Generation": 54908,
+    "NetGen": 53649,
+    "Load": 2313,
+    "PLF": 59.56,
+    "Efficiency": 48.97,
+    "HeatRate": 7351.585439,
+    "Fuel": 8664,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
+  },
+  {
+    "Date": "03.03.2026",
+    "Generation": 55187,
+    "NetGen": 53948,
+    "Load": 2080,
+    "PLF": 53.56,
+    "Efficiency": 49.38,
+    "HeatRate": 7290.843631,
+    "Fuel": 8714,
+    "Emissions": {
+      "NOx": null,
+      "SOx": null,
+      "CO": null,
+      "Particulate": null,
+      "StackTemp": null
+    },
+    "Water": {
+      "ROProduction": null
+    },
+    "AirIntakeDP": null,
+    "Units": []
   }
 ]

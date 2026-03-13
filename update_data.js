@@ -274,7 +274,7 @@ async function init() {
             const d = flatData.Date || flatData.date || flatData.Day;
             const dp = d ? String(d).trim() : null;
             r.d = dp ? (() => {
-                const parts = dp.split(/[\/\-\.]/).map(p => p.trim());
+                const parts = dp.split(/[\/\-.]/).map(p => p.trim());
                 if (parts.length === 3 && parts[0].length <= 2) {
                     return new Date(+parts[2], +parts[1] - 1, +parts[0]); // dd.MM.yyyy
                 }
