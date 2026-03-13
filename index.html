@@ -13,6 +13,45 @@
     <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js"></script>
     <style>
+        // Fetch live data every 30 seconds
+async function updateDashboard() {
+  const response = await fetch('plant_data.json');
+  const data = await response.json();
+  
+  // Update KPI cards
+  document.getElementById('generation').textContent = data.generation + ' MWh';
+  document.getElementById('efficiency').textContent = data.efficiency + ' kJ/kWh';
+  document.getElementById('fuel').textContent = data.fuel + ' kg';
+  
+  // Update charts (Chart.js)
+  generationChart.data.datasets[0].data = [data.generation];
+  efficiencyChart.update();
+  fuelChart.update();
+}
+
+// Run on load + poll
+updateDashboard();
+setInterval(updateDashboard, 30000);
+// Fetch live data every 30 seconds
+async function updateDashboard() {
+  const response = await fetch('plant_data.json');
+  const data = await response.json();
+  
+  // Update KPI cards
+  document.getElementById('generation').textContent = data.generation + ' MWh';
+  document.getElementById('efficiency').textContent = data.efficiency + ' kJ/kWh';
+  document.getElementById('fuel').textContent = data.fuel + ' kg';
+  
+  // Update charts (Chart.js)
+  generationChart.data.datasets[0].data = [data.generation];
+  efficiencyChart.update();
+  fuelChart.update();
+}
+
+// Run on load + poll
+updateDashboard();
+setInterval(updateDashboard, 30000);
+
         :root {
             /* Dashboard Brand */
             --brand-lilac:        #9273DA;
