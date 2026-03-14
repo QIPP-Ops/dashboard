@@ -1369,7 +1369,7 @@
                 .sort((a,b)=>a._d-b._d);
             VIEW=[...ALL];
             document.getElementById('dash-info').textContent=
-                `${ALL[0]?.Date} → ${ALL[ALL.length-1]?.Date}  ·  ${ALL.length} daily records`;
+                `${ALL[0]?.Date} → ${ALL[ALL.length-1]?.Date}  ·  ${ALL.length}`;
             buildTgl();sync();draw();
         }catch(e){
             document.getElementById('dash-info').textContent='⚠ Open via: python -m http.server 8080';
