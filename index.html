@@ -406,6 +406,18 @@
     </style>
     <style>
 
+        /* Remove arrows from WebKit browsers (Chrome, Safari, Edge) */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove arrows from Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+        
         body{display:flex!important;flex-direction:column!important;}
         #content-area{flex:1;}
         .view-page{display:none!important;}
