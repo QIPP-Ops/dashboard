@@ -1,4 +1,3 @@
-<!-- Trigger GitHub Pages redeploy -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -147,6 +146,7 @@
         }
 
         /* 2. Planned Leaves Button (Primary/Lime) */
+
 
         /* HERO SECTION */
         .hero-section {
@@ -594,64 +594,64 @@
     </style>
 </head>
 <script>
-(function () {
-  'use strict';
-  function escH(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
-  function posTip(e,tt){
-    var x=e.clientX+16,y=e.clientY-10,tw=tt.offsetWidth||260,th=tt.offsetHeight||200;
-    if(x+tw>window.innerWidth-8)x=e.clientX-tw-10;
-    if(y+th>window.innerHeight-8)y=window.innerHeight-th-8;
-    if(x<4)x=4;if(y<4)y=4;
-    tt.style.left=x+'px';tt.style.top=y+'px';
-  }
-  function buildHTML(name,member){
-    var role=member.r,myColor=crewColorMap[name],k=(typeof CPKEY!=='undefined')?CPKEY:null,out='';
-    ['A','B','C','D'].forEach(function(crew){
-      var elig=CPREG.filter(function(m){
-        if(m.n===name)return false;
-        var mc=crewColorMap[m.n];
-        if(!mc||mc===myColor)return false;
-        var cov=CPROLECOVERS?CPROLECOVERS[m.r]:null;
-        if(!cov||cov.indexOf(role)===-1)return false;
-        if(k&&typeof cpSt==='function'&&cpSt(m.n,k)!=='O')return false;
-        return m.c===crew;
-      });
-      if(!elig.length)return;
-      out+='<div style="font-size:.57rem;font-weight:700;color:#D2F050;text-transform:uppercase;letter-spacing:.06em;margin:5px 0 2px;border-top:1px solid rgba(255,255,255,.1);padding-top:4px">Crew '+crew+'</div>';
-      elig.forEach(function(m){
-        var cc=crewColorMap[m.n]||'';
-        out+='<div style="display:flex;justify-content:space-between;align-items:center;padding:1.5px 0"><span class="'+cc+'" style="font-size:.7rem">'+escH(m.n)+'</span><span style="color:rgba(255,255,255,.32);font-size:.57rem;margin-left:8px">'+escH(m.r)+'</span></div>';
-      });
-    });
-    return out||'<em style="color:rgba(255,255,255,.38);font-size:.7rem">No eligible cover found</em>';
-  }
-  function hookHover(){
-    var tbody=document.getElementById('cpTBody');if(!tbody)return;
-    tbody.querySelectorAll('tr:not(.cpsecrow):not(.cpeditrow)').forEach(function(row){
-      var td=row.querySelector('td:first-child');if(!td||td._cpH)return;
-      var ns=td.querySelector('span[class]');if(!ns)return;
-      var name=ns.textContent.trim();
-      var member=(typeof CPMAP!=='undefined')?CPMAP[name]:null;if(!member)return;
-      td._cpH=true;
-      td.addEventListener('mouseenter',function(e){
-        var tt=document.getElementById('cpTip');if(!tt)return;
-        tt.innerHTML='<div style="font-size:.64rem;font-weight:700;color:#D2F050;margin-bottom:5px;border-bottom:1px solid rgba(210,240,80,.25);padding-bottom:4px">&#128203; Available Cover</div><div style="font-size:.59rem;color:rgba(255,255,255,.48);margin-bottom:7px">'+escH(name)+' &bull; '+escH(member.r)+'</div>'+buildHTML(name,member);
-        tt.style.display='block';posTip(e,tt);
-      });
-      td.addEventListener('mousemove',function(e){var tt=document.getElementById('cpTip');if(tt&&tt.style.display!=='none')posTip(e,tt);});
-      td.addEventListener('mouseleave',function(){var tt=document.getElementById('cpTip');if(tt)tt.style.display='none';});
-    });
-  }
-  var _t=setInterval(function(){
-    if(typeof cpRenderTbl==='undefined')return;
-    clearInterval(_t);
-    var _r=cpRenderTbl;
-    cpRenderTbl=function(){_r.apply(this,arguments);setTimeout(hookHover,0);};
-    if(typeof cpOpenPanel!=='undefined'){var _o=cpOpenPanel;cpOpenPanel=function(){_o.apply(this,arguments);setTimeout(hookHover,60);};}
-  },100);
-}());
+    (function () {
+        'use strict';
+        function escH(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+        function posTip(e,tt){
+            var x=e.clientX+16,y=e.clientY-10,tw=tt.offsetWidth||260,th=tt.offsetHeight||200;
+            if(x+tw>window.innerWidth-8)x=e.clientX-tw-10;
+            if(y+th>window.innerHeight-8)y=window.innerHeight-th-8;
+            if(x<4)x=4;if(y<4)y=4;
+            tt.style.left=x+'px';tt.style.top=y+'px';
+        }
+        function buildHTML(name,member){
+            var role=member.r,myColor=crewColorMap[name],k=(typeof CPKEY!=='undefined')?CPKEY:null,out='';
+            ['A','B','C','D'].forEach(function(crew){
+                var elig=CPREG.filter(function(m){
+                    if(m.n===name)return false;
+                    var mc=crewColorMap[m.n];
+                    if(!mc||mc===myColor)return false;
+                    var cov=CPROLECOVERS?CPROLECOVERS[m.r]:null;
+                    if(!cov||cov.indexOf(role)===-1)return false;
+                    if(k&&typeof cpSt==='function'&&cpSt(m.n,k)!=='O')return false;
+                    return m.c===crew;
+                });
+                if(!elig.length)return;
+                out+='<div style="font-size:.57rem;font-weight:700;color:#D2F050;text-transform:uppercase;letter-spacing:.06em;margin:5px 0 2px;border-top:1px solid rgba(255,255,255,.1);padding-top:4px">Crew '+crew+'</div>';
+                elig.forEach(function(m){
+                    var cc=crewColorMap[m.n]||'';
+                    out+='<div style="display:flex;justify-content:space-between;align-items:center;padding:1.5px 0"><span class="'+cc+'" style="font-size:.7rem">'+escH(m.n)+'</span><span style="color:rgba(255,255,255,.32);font-size:.57rem;margin-left:8px">'+escH(m.r)+'</span></div>';
+                });
+            });
+            return out||'<em style="color:rgba(255,255,255,.38);font-size:.7rem">No eligible cover found</em>';
+        }
+        function hookHover(){
+            var tbody=document.getElementById('cpTBody');if(!tbody)return;
+            tbody.querySelectorAll('tr:not(.cpsecrow):not(.cpeditrow)').forEach(function(row){
+                var td=row.querySelector('td:first-child');if(!td||td._cpH)return;
+                var ns=td.querySelector('span[class]');if(!ns)return;
+                var name=ns.textContent.trim();
+                var member=(typeof CPMAP!=='undefined')?CPMAP[name]:null;if(!member)return;
+                td._cpH=true;
+                td.addEventListener('mouseenter',function(e){
+                    var tt=document.getElementById('cpTip');if(!tt)return;
+                    tt.innerHTML='<div style="font-size:.64rem;font-weight:700;color:#D2F050;margin-bottom:5px;border-bottom:1px solid rgba(210,240,80,.25);padding-bottom:4px">&#128203; Available Cover</div><div style="font-size:.59rem;color:rgba(255,255,255,.48);margin-bottom:7px">'+escH(name)+' &bull; '+escH(member.r)+'</div>'+buildHTML(name,member);
+                    tt.style.display='block';posTip(e,tt);
+                });
+                td.addEventListener('mousemove',function(e){var tt=document.getElementById('cpTip');if(tt&&tt.style.display!=='none')posTip(e,tt);});
+                td.addEventListener('mouseleave',function(){var tt=document.getElementById('cpTip');if(tt)tt.style.display='none';});
+            });
+        }
+        var _t=setInterval(function(){
+            if(typeof cpRenderTbl==='undefined')return;
+            clearInterval(_t);
+            var _r=cpRenderTbl;
+            cpRenderTbl=function(){_r.apply(this,arguments);setTimeout(hookHover,0);};
+            if(typeof cpOpenPanel!=='undefined'){var _o=cpOpenPanel;cpOpenPanel=function(){_o.apply(this,arguments);setTimeout(hookHover,60);};}
+        },100);
+    }());
 </script>
-</body>
+</html>
 
 
 <!-- SHARED NAVBAR -->
@@ -667,26 +667,7 @@
                 <path d="M56.9318 6.12801C56.5973 5.83629 56.3205 5.83629 55.9745 6.12801L51.0847 10.3288C50.5196 10.8072 50.2082 11.1689 49.943 11.6707H49.8738V7.08485C49.8738 6.44307 50.139 5.84795 50.6349 5.42788L54.3946 2.20728C55.8823 0.923707 57.0356 0.912038 58.5463 2.20728L62.306 5.42788C62.7903 5.84795 63.0671 6.4314 63.0671 7.08485V11.6707H62.9979C62.7327 11.1689 62.4213 10.8072 61.8562 10.3288L56.9664 6.13968L56.9318 6.12801Z"/>
             </svg>
             <span style="font-family: 'Montserrat', sans-serif; font-size: 22px; font-weight: 600; color: white; margin-left: 15px; padding-left: 15px; border-left: 1px solid rgba(255,255,255,0.4); letter-spacing: 1px; line-height: 1;">OPERATIONS</span></div></a>
-        <!-- CLEAN NAVBAR — NO ARROW -->
-<nav class="navbar acwa-navbar" style="padding: 0 2rem;">
-  <div style="display: flex; align-items: center;">
-    <!-- Logo SVG -->
-    <svg viewBox="0 0 65 90" fill="none"><!-- your SVG paths --></svg>
-    <span style="font-family: Montserrat, sans-serif; font-size: 22px; font-weight: 600; color: white; margin-left: 15px; padding-left: 15px; border-left: 1px solid rgba(255,255,255,0.4); letter-spacing: 1px; line-height: 1;">OPERATIONS</span>
-  </div>
-  
-  <!-- Right buttons ONLY — no toggler -->
-  <div style="display: flex; align-items: center; gap: 1rem;">
-    <a href="https://hcm23.sapsf.com/sf/home?bplte=company=acwapower&c" target="_blank" class="btn-mini">SuccessFactors</a>
-    <a href="https://apnomac.synergilife.dnv.com" class="btn-sap" target="_blank">Synergi Life</a>
-    <a href="https://flpnwc-fpg6i1pyim.dispatcher.sa1.hana.ondemand.com/sites?siteId=bd8f998f-0949-4d95-b233-fbf3aa884a5c#Shell-home" target="_blank" class="btn-sap">S4HANA</a>
-    <a href="https://acwapi-my.sharepoint.com/:x:/g/personal/malgarni_nomac_com/IQBX9-3015HcT6C0FTLuBlOAfVqMX5BJTYTqFMVOwZ7nwE?e=dQHZWw" target="_blank" class="btn-mini-lime">
-      <svg width="11" height="11"><!-- leaf icon --></svg> Planned Leaves
-    </a>
-    <button id="cal-nav-btn" class="btn-mini" onclick="switchPage('calendar')">Ops Calendar</button>
-  </div>
-</nav>
-
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon" style="filter:invert(1);"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -1181,7 +1162,7 @@
         s('s-hr',r.HeatRate!=null?N(r.HeatRate,0)+' kJ/kWh':'--');
         s('s-fu',r.Fuel!=null?N(r.Fuel,0)+' T':'--');
         const _mfv=r.MFEQH??((r.Units||[]).reduce((a,u)=>a+(u.MFEQH||0),0)||null);s('s-mf',_mfv?N(_mfv,0)+' Hrs':'--');
-                const emRec=[...VIEW].reverse().find(x=>x.Emissions?.NOx!=null||x.Emissions?.SOx!=null||x.Emissions?.CO!=null);
+        const emRec=[...VIEW].reverse().find(x=>x.Emissions?.NOx!=null||x.Emissions?.SOx!=null||x.Emissions?.CO!=null);
         const em=(emRec||r).Emissions||{};
         s('s-nx',em.NOx!=null?N(em.NOx,2)+' mg/Nm³':'--');
         s('s-sx',em.SOx!=null?N(em.SOx,2)+' mg/Nm³':'--');
@@ -1378,12 +1359,12 @@
         try{
             const raw=await(await fetch('plant_data.json')).json();
             ALL=raw.map(r=>{
-    const hr=(r.HeatRate!=null)?r.HeatRate:
-        (r.Fuel&&r.Generation?Math.round(r.Fuel*48500/r.Generation*10)/10:null);
-    const ef=(r.Efficiency!=null)?r.Efficiency:
-        (hr?Math.round(3600/hr*10000)/100:null);
-    return {...r,_d:pd(r.Date),HeatRate:hr,Efficiency:ef};
-})
+                const hr=(r.HeatRate!=null)?r.HeatRate:
+                    (r.Fuel&&r.Generation?Math.round(r.Fuel*48500/r.Generation*10)/10:null);
+                const ef=(r.Efficiency!=null)?r.Efficiency:
+                    (hr?Math.round(3600/hr*10000)/100:null);
+                return {...r,_d:pd(r.Date),HeatRate:hr,Efficiency:ef};
+            })
                 .filter(r=>r._d&&!isNaN(r._d.getTime()))
                 .sort((a,b)=>a._d-b._d);
             VIEW=[...ALL];
@@ -1410,14 +1391,14 @@
     });
 
     const crewColorMap = {
-    'Syed Shahnawaz Ahmed': 'crew-red', 'Abdullah Al Amri': 'crew-red', 'Kanaka Naga Srinivasu Kolli': 'crew-red', 'Moustafa Elansari': 'crew-red', 'Mustafa Salem': 'crew-red', 'Zaid Almarri': 'crew-red', 'Alaa Alrefae': 'crew-red',
-    'Saleh Mohammed Al Amri': 'crew-yellow', 'Adam Mohammed Al-Huzum': 'crew-yellow', 'Sami Hamdan': 'crew-yellow',
-    'Shaheer Yousaf': 'crew-green', 'Juma Khan': 'crew-green', 'Veera Prasad': 'crew-green', 'Waleed Fayad': 'crew-green',
-    'Ahmed Fathy': 'crew-lightblue', 'Fawaz Al Qahtani': 'crew-lightblue', 'Rashed Alhajri': 'crew-lightblue', 'Prathapan': 'crew-lightblue', 'Yasser Althuiqeb': 'crew-lightblue', 'Abdullah Al Hajri': 'crew-lightblue', 'Norbie Cruz': 'crew-lightblue', 'Lakshmy Prasad': 'crew-lightblue', 'Saravanakumar Madhaiyan': 'crew-lightblue', 'Hassan Arshad': 'crew-lightblue', 'Ahmed Fawaz': 'crew-lightblue',
-    'Purushothaman Devaraj': 'crew-lightviolet', 'Abdulwahab Al-Shehab': 'crew-lightviolet', 'Izhar Ali': 'crew-lightviolet', 'Mark Ramirez': 'crew-lightviolet', 'Ahmed Alsaqoor': 'crew-lightviolet', 'Rajesh Muniasamy': 'crew-lightviolet',
-    'Mohamed Al Dossary': 'crew-lightorange', 'Abdullah Altulayhi': 'crew-lightorange', 'Bakr Abdulmajeed': 'crew-lightorange', 'Mohammed Mulhim': 'crew-lightorange', 'Abdullah Mohiddin Alshahrani': 'crew-lightorange', 'Mohammed Afnan': 'crew-lightorange', 'Abdelaziz Al Harbi': 'crew-lightorange', 'Amjad Alruwaytie': 'crew-lightorange', 'Khalid Saleh Khalousi': 'crew-lightorange', 'Saad Al Enize': 'crew-lightorange', 'Mohammed Al Ghamdi': 'crew-lightorange', 'Bader AlSubait': 'crew-lightorange',
-    'Saad Salem Al Hajiri': 'crew-grey', 'Abdulhadi Mohammed Saleh': 'crew-grey', 'Abderahman Al Anezie': 'crew-grey', 'Abderahman Al Baqmi': 'crew-grey', 'Ali Al Qahtani': 'crew-grey', 'Faris Al Dawasri': 'crew-grey', 'Mohamed Al Hakami': 'crew-grey', 'Saad Al Shahrani': 'crew-grey'
-};
+        'Syed Shahnawaz Ahmed': 'crew-red', 'Abdullah Al Amri': 'crew-red', 'Kanaka Naga Srinivasu Kolli': 'crew-red', 'Moustafa Elansari': 'crew-red', 'Mustafa Salem': 'crew-red', 'Zaid Almarri': 'crew-red', 'Alaa Alrefae': 'crew-red',
+        'Saleh Mohammed Al Amri': 'crew-yellow', 'Adam Mohammed Al-Huzum': 'crew-yellow', 'Sami Hamdan': 'crew-yellow',
+        'Shaheer Yousaf': 'crew-green', 'Juma Khan': 'crew-green', 'Veera Prasad': 'crew-green', 'Waleed Fayad': 'crew-green',
+        'Ahmed Fathy': 'crew-lightblue', 'Fawaz Al Qahtani': 'crew-lightblue', 'Rashed Alhajri': 'crew-lightblue', 'Prathapan': 'crew-lightblue', 'Yasser Althuiqeb': 'crew-lightblue', 'Abdullah Al Hajri': 'crew-lightblue', 'Norbie Cruz': 'crew-lightblue', 'Lakshmy Prasad': 'crew-lightblue', 'Saravanakumar Madhaiyan': 'crew-lightblue', 'Hassan Arshad': 'crew-lightblue', 'Ahmed Fawaz': 'crew-lightblue',
+        'Purushothaman Devaraj': 'crew-lightviolet', 'Abdulwahab Al-Shehab': 'crew-lightviolet', 'Izhar Ali': 'crew-lightviolet', 'Mark Ramirez': 'crew-lightviolet', 'Ahmed Alsaqoor': 'crew-lightviolet', 'Rajesh Muniasamy': 'crew-lightviolet',
+        'Mohamed Al Dossary': 'crew-lightorange', 'Abdullah Altulayhi': 'crew-lightorange', 'Bakr Abdulmajeed': 'crew-lightorange', 'Mohammed Mulhim': 'crew-lightorange', 'Abdullah Mohiddin Alshahrani': 'crew-lightorange', 'Mohammed Afnan': 'crew-lightorange', 'Abdelaziz Al Harbi': 'crew-lightorange', 'Amjad Alruwaytie': 'crew-lightorange', 'Khalid Saleh Khalousi': 'crew-lightorange', 'Saad Al Enize': 'crew-lightorange', 'Mohammed Al Ghamdi': 'crew-lightorange', 'Bader AlSubait': 'crew-lightorange',
+        'Saad Salem Al Hajiri': 'crew-grey', 'Abdulhadi Mohammed Saleh': 'crew-grey', 'Abderahman Al Anezie': 'crew-grey', 'Abderahman Al Baqmi': 'crew-grey', 'Ali Al Qahtani': 'crew-grey', 'Faris Al Dawasri': 'crew-grey', 'Mohamed Al Hakami': 'crew-grey', 'Saad Al Shahrani': 'crew-grey'
+    };
 
 
     function formatCrewName(name) {
@@ -1552,25 +1533,25 @@
     };
 
     const crewByDate = {
-    defaults: {
-        A: {
-            D: { shiftInChargeEngineer: ["Zaid Almarri"], supervisor: ["Syed Shahnawaz Ahmed"], ccrOperators: ["Sami Hamdan","Fawaz Al Qahtani","Ahmed Fathy","Abdulwahab Al-Shehab","Shaheer Yousaf"], localOperators: ["Purushothaman Devaraj","Mohamed Al Dossary","Abdullah Altulayhi","Bakr Abdulmajeed","Saad Salem Al Hajiri","Abdulhadi Mohammed Saleh"] },
-            N: { shiftInChargeEngineer: ["Zaid Almarri"], supervisor: ["Syed Shahnawaz Ahmed"], ccrOperators: ["Sami Hamdan","Fawaz Al Qahtani","Ahmed Fathy","Abdulwahab Al-Shehab","Shaheer Yousaf"], localOperators: ["Purushothaman Devaraj","Mohamed Al Dossary","Abdullah Altulayhi","Bakr Abdulmajeed","Saad Salem Al Hajiri","Abdulhadi Mohammed Saleh"] }
-        },
-        B: {
-            D: { shiftInChargeEngineer: ["Abdullah Al Amri"], supervisor: ["Kanaka Naga Srinivasu Kolli"], ccrOperators: ["Prathapan","Ahmed Fawaz","Rashed Alhajri","Saravanakumar Madhaiyan","Abdullah Mohiddin Alshahrani"], localOperators: ["Mohammed Mulhim","Mohammed Afnan","Abdelaziz Al Harbi","Amjad Alruwaytie","Abderahman Al Anezie"] },
-            N: { shiftInChargeEngineer: ["Abdullah Al Amri"], supervisor: ["Kanaka Naga Srinivasu Kolli"], ccrOperators: ["Prathapan","Ahmed Fawaz","Rashed Alhajri","Saravanakumar Madhaiyan","Abdullah Mohiddin Alshahrani"], localOperators: ["Mohammed Mulhim","Mohammed Afnan","Abdelaziz Al Harbi","Amjad Alruwaytie","Abderahman Al Anezie"] }
-        },
-        C: {
-            D: { shiftInChargeEngineer: ["Alaa Alrefae"], supervisor: ["Moustafa Elansari"], ccrOperators: ["Abdullah Al Hajri","Yasser Althuiqeb","Waleed Fayad","Norbie Cruz"], localOperators: ["Khalid Saleh Khalousi","Saad Al Enize","Izhar Ali","Abderahman Al Baqmi","Ali Al Qahtani"] },
-            N: { shiftInChargeEngineer: ["Alaa Alrefae"], supervisor: ["Moustafa Elansari"], ccrOperators: ["Abdullah Al Hajri","Yasser Althuiqeb","Waleed Fayad","Norbie Cruz"], localOperators: ["Khalid Saleh Khalousi","Saad Al Enize","Izhar Ali","Abderahman Al Baqmi","Ali Al Qahtani"] }
-        },
-        D: {
-            D: { shiftInChargeEngineer: ["Mustafa Salem"], supervisor: [], ccrOperators: ["Lakshmy Prasad","Saleh Mohammed Al Amri","Hassan Arshad","Veera Prasad"], localOperators: ["Rajesh Muniasamy","Mark Ramirez","Mohammed Al Ghamdi","Bader AlSubait","Faris Al Dawasri","Mohamed Al Hakami","Saad Al Shahrani","Ahmed Alsaqoor"] },
-            N: { shiftInChargeEngineer: ["Mustafa Salem"], supervisor: [], ccrOperators: ["Lakshmy Prasad","Saleh Mohammed Al Amri","Hassan Arshad","Veera Prasad"], localOperators: ["Rajesh Muniasamy","Mark Ramirez","Mohammed Al Ghamdi","Bader AlSubait","Faris Al Dawasri","Mohamed Al Hakami","Saad Al Shahrani","Ahmed Alsaqoor"] }
+        defaults: {
+            A: {
+                D: { shiftInChargeEngineer: ["Zaid Almarri"], supervisor: ["Syed Shahnawaz Ahmed"], ccrOperators: ["Sami Hamdan","Fawaz Al Qahtani","Ahmed Fathy","Abdulwahab Al-Shehab","Shaheer Yousaf"], localOperators: ["Purushothaman Devaraj","Mohamed Al Dossary","Abdullah Altulayhi","Bakr Abdulmajeed","Saad Salem Al Hajiri","Abdulhadi Mohammed Saleh"] },
+                N: { shiftInChargeEngineer: ["Zaid Almarri"], supervisor: ["Syed Shahnawaz Ahmed"], ccrOperators: ["Sami Hamdan","Fawaz Al Qahtani","Ahmed Fathy","Abdulwahab Al-Shehab","Shaheer Yousaf"], localOperators: ["Purushothaman Devaraj","Mohamed Al Dossary","Abdullah Altulayhi","Bakr Abdulmajeed","Saad Salem Al Hajiri","Abdulhadi Mohammed Saleh"] }
+            },
+            B: {
+                D: { shiftInChargeEngineer: ["Abdullah Al Amri"], supervisor: ["Kanaka Naga Srinivasu Kolli"], ccrOperators: ["Prathapan","Ahmed Fawaz","Rashed Alhajri","Saravanakumar Madhaiyan","Abdullah Mohiddin Alshahrani"], localOperators: ["Mohammed Mulhim","Mohammed Afnan","Abdelaziz Al Harbi","Amjad Alruwaytie","Abderahman Al Anezie"] },
+                N: { shiftInChargeEngineer: ["Abdullah Al Amri"], supervisor: ["Kanaka Naga Srinivasu Kolli"], ccrOperators: ["Prathapan","Ahmed Fawaz","Rashed Alhajri","Saravanakumar Madhaiyan","Abdullah Mohiddin Alshahrani"], localOperators: ["Mohammed Mulhim","Mohammed Afnan","Abdelaziz Al Harbi","Amjad Alruwaytie","Abderahman Al Anezie"] }
+            },
+            C: {
+                D: { shiftInChargeEngineer: ["Alaa Alrefae"], supervisor: ["Moustafa Elansari"], ccrOperators: ["Abdullah Al Hajri","Yasser Althuiqeb","Waleed Fayad","Norbie Cruz"], localOperators: ["Khalid Saleh Khalousi","Saad Al Enize","Izhar Ali","Abderahman Al Baqmi","Ali Al Qahtani"] },
+                N: { shiftInChargeEngineer: ["Alaa Alrefae"], supervisor: ["Moustafa Elansari"], ccrOperators: ["Abdullah Al Hajri","Yasser Althuiqeb","Waleed Fayad","Norbie Cruz"], localOperators: ["Khalid Saleh Khalousi","Saad Al Enize","Izhar Ali","Abderahman Al Baqmi","Ali Al Qahtani"] }
+            },
+            D: {
+                D: { shiftInChargeEngineer: ["Mustafa Salem"], supervisor: [], ccrOperators: ["Lakshmy Prasad","Saleh Mohammed Al Amri","Hassan Arshad","Veera Prasad"], localOperators: ["Rajesh Muniasamy","Mark Ramirez","Mohammed Al Ghamdi","Bader AlSubait","Faris Al Dawasri","Mohamed Al Hakami","Saad Al Shahrani","Ahmed Alsaqoor"] },
+                N: { shiftInChargeEngineer: ["Mustafa Salem"], supervisor: [], ccrOperators: ["Lakshmy Prasad","Saleh Mohammed Al Amri","Hassan Arshad","Veera Prasad"], localOperators: ["Rajesh Muniasamy","Mark Ramirez","Mohammed Al Ghamdi","Bader AlSubait","Faris Al Dawasri","Mohamed Al Hakami","Saad Al Shahrani","Ahmed Alsaqoor"] }
+            }
         }
-    }
-};
+    };
 
     function getDayClass(date, shift) {
         const key = `${date.getMonth() + 1}/${date.getDate()}`;
@@ -2276,146 +2257,146 @@
             TA_SEARCH=this.value; taRender();
         });
     });
-// 
-var CPOV = {}, CPLR = {}, CPPENDING = null, CPEDIT_ID = null;
-const CPPIN = "1234";
+    //
+    var CPOV = {}, CPLR = {}, CPPENDING = null, CPEDIT_ID = null;
+    const CPPIN = "1234";
 
-var CPREG = [
-    // SHIFT A
-    {n:"Zaid Almarri", c:"A", r:"Shift in Charge Engineer"},
-    {n:"Syed Shahnawaz Ahmed", c:"A", r:"Supervisor"},
-    {n:"Sami Hamdan", c:"A", r:"CCR Operator"},
-    {n:"Purushothaman Devaraj", c:"A", r:"Local Operator"},
-    
-    // SHIFT B
-    {n:"Abdullah Al Amri", c:"B", r:"Shift in Charge Engineer"},
-    {n:"Kanaka Naga Srinivasu Kolli", c:"B", r:"Supervisor"},
-    {n:"Prathapan", c:"B", r:"CCR Operator"},
-    {n:"Mohammed Mulhim", c:"B", r:"Local Operator"},
-    
-    // SHIFT C  
-    {n:"Alaa Alrefae", c:"C", r:"Shift in Charge Engineer"},
-    {n:"Mustafa Ansari", c:"C", r:"Supervisor"},
-    {n:"Abdullah Al Hajri", c:"C", r:"CCR Operator"},
-    {n:"Khalid Saleh Khalousi", c:"C", r:"Local Operator"},
-    
-    // SHIFT D
-    {n:"Mustafa Salem", c:"D", r:"Shift in Charge Engineer"},
-    {n:"Lakshmy Prasad", c:"D", r:"CCR Operator"},
-    {n:"Veera Prasad", c:"D", r:"CCR Operator"},
-    {n:"Ahmed Alsagoor", c:"D", r:"Local Operator"}
-];
+    var CPREG = [
+        // SHIFT A
+        {n:"Zaid Almarri", c:"A", r:"Shift in Charge Engineer"},
+        {n:"Syed Shahnawaz Ahmed", c:"A", r:"Supervisor"},
+        {n:"Sami Hamdan", c:"A", r:"CCR Operator"},
+        {n:"Purushothaman Devaraj", c:"A", r:"Local Operator"},
 
-var CPMAP = {};
-CPREG.forEach(function(m){ CPMAP[m.n] = m; });
+        // SHIFT B
+        {n:"Abdullah Al Amri", c:"B", r:"Shift in Charge Engineer"},
+        {n:"Kanaka Naga Srinivasu Kolli", c:"B", r:"Supervisor"},
+        {n:"Prathapan", c:"B", r:"CCR Operator"},
+        {n:"Mohammed Mulhim", c:"B", r:"Local Operator"},
 
-var CPROLECOVERS = {
-    "Local Operator": ["Local Operator"],
-    "CCR Operator": ["Local Operator","CCR Operator","Supervisor","Shift in Charge Engineer"],
-    "Supervisor": ["Supervisor","Shift in Charge Engineer"],
-    "Shift in Charge Engineer": ["Supervisor","Shift in Charge Engineer"]
-};
+        // SHIFT C
+        {n:"Alaa Alrefae", c:"C", r:"Shift in Charge Engineer"},
+        {n:"Mustafa Ansari", c:"C", r:"Supervisor"},
+        {n:"Abdullah Al Hajri", c:"C", r:"CCR Operator"},
+        {n:"Khalid Saleh Khalousi", c:"C", r:"Local Operator"},
 
-══════════════════════════════════════════════════════════════════
-// ══════════════════════════════════════════════════════════════════
-//  HOVER COVERAGE TOOLTIP  — v20260314 FIXED (CCR color match)
-// ══════════════════════════════════════════════════════════════════
-(function() {
-    var tip = document.getElementById('cpTip');
-    if (!tip) {
-        tip = document.createElement('div');
-        tip.id = 'cpTip';
-        document.body.appendChild(tip);
-    }
+        // SHIFT D
+        {n:"Mustafa Salem", c:"D", r:"Shift in Charge Engineer"},
+        {n:"Lakshmy Prasad", c:"D", r:"CCR Operator"},
+        {n:"Veera Prasad", c:"D", r:"CCR Operator"},
+        {n:"Ahmed Alsagoor", c:"D", r:"Local Operator"}
+    ];
 
-    function tipHide() {
-        tip.style.display = 'none';
-    }
+    var CPMAP = {};
+    CPREG.forEach(function(m){ CPMAP[m.n] = m; });
 
-    function tipMove(e) {
-        if (tip.style.display === 'none') return;
-        var x = e.clientX + 18, y = e.clientY - 12;
-        var tw = 320, th = 220;
-        if (x + tw > window.innerWidth - 8) x = e.clientX - tw - 12;
-        if (y + th > window.innerHeight - 8) y = e.clientY - th - 8;
-        tip.style.left = x + 'px';
-        tip.style.top = y + 'px';
-    }
+    var CPROLECOVERS = {
+        "Local Operator": ["Local Operator"],
+        "CCR Operator": ["Local Operator","CCR Operator","Supervisor","Shift in Charge Engineer"],
+        "Supervisor": ["Supervisor","Shift in Charge Engineer"],
+        "Shift in Charge Engineer": ["Supervisor","Shift in Charge Engineer"]
+    };
 
-    function getCoverCandidates(absentName, dateKey, shift) {
-        if (typeof CPREG === 'undefined' || typeof scheduleData === 'undefined') return [];
-        var absentEntry = (typeof CPMAP !== 'undefined') ? CPMAP[absentName] : null;
-        if (!absentEntry) return [];
-        var result = [];
 
-        CPREG.forEach(function (m) {
-            if (m.n === absentName) return;
+    // ══════════════════════════════════════════════════════════════════
+    //  HOVER COVERAGE TOOLTIP  — v20260314 FIXED (CCR color match)
+    // ══════════════════════════════════════════════════════════════════
+    (function() {
+        var tip = document.getElementById('cpTip');
+        if (!tip) {
+            tip = document.createElement('div');
+            tip.id = 'cpTip';
+            document.body.appendChild(tip);
+        }
 
-            // Must be OFF on this date
-            var st = (scheduleData[dateKey] || {})[m.c] || 'O';
-            if (typeof CPOV !== 'undefined' && CPOV[m.n] && CPOV[m.n][dateKey]) {
-                st = CPOV[m.n][dateKey];
+        function tipHide() {
+            tip.style.display = 'none';
+        }
+
+        function tipMove(e) {
+            if (tip.style.display === 'none') return;
+            var x = e.clientX + 18, y = e.clientY - 12;
+            var tw = 320, th = 220;
+            if (x + tw > window.innerWidth - 8) x = e.clientX - tw - 12;
+            if (y + th > window.innerHeight - 8) y = e.clientY - th - 8;
+            tip.style.left = x + 'px';
+            tip.style.top = y + 'px';
+        }
+
+        function getCoverCandidates(absentName, dateKey, shift) {
+            if (typeof CPREG === 'undefined' || typeof scheduleData === 'undefined') return [];
+            var absentEntry = (typeof CPMAP !== 'undefined') ? CPMAP[absentName] : null;
+            if (!absentEntry) return [];
+            var result = [];
+
+            CPREG.forEach(function (m) {
+                if (m.n === absentName) return;
+
+                // Must be OFF on this date
+                var st = (scheduleData[dateKey] || {})[m.c] || 'O';
+                if (typeof CPOV !== 'undefined' && CPOV[m.n] && CPOV[m.n][dateKey]) {
+                    st = CPOV[m.n][dateKey];
+                }
+                if (st !== 'O') return;
+
+                // Role eligibility
+                var covers = (typeof CPROLECOVERS !== 'undefined') ? CPROLECOVERS[m.r] : null;
+                if (covers && covers.indexOf(absentEntry.r) === -1) return;
+
+                // FIXED: CCR → SICE must be same color group
+                if (m.r === 'CCR Operator' && absentEntry.r.includes('Shift in Charge Engineer')) {
+                    var mColor = (typeof crewColorMap !== 'undefined') ? crewColorMap[m.n] : '';
+                    var siceColor = (typeof crewColorMap !== 'undefined') ? crewColorMap[absentName] : '';
+                    if (mColor !== siceColor) return;
+                }
+
+                // Different crew colour group (via crewColorMap)
+                if (typeof crewColorMap !== 'undefined') {
+                    var c1 = crewColorMap[m.n], c2 = crewColorMap[absentName];
+                    if (c1 && c2 && c1 === c2) return;
+                }
+                result.push(m);
+            });
+            return result;
+        }
+
+        function buildTipHTML(absentName, dateKey, shift) {
+            var candidates = getCoverCandidates(absentName, dateKey, shift);
+            var html = '<div class="tip-title">&#128270; Coverage for ' + absentName + '</div>';
+
+            if (candidates.length === 0) {
+                html += '<div class="tip-none">No eligible off-duty cover found</div>';
+                return html;
             }
-            if (st !== 'O') return;
 
-            // Role eligibility
-            var covers = (typeof CPROLECOVERS !== 'undefined') ? CPROLECOVERS[m.r] : null;
-            if (covers && covers.indexOf(absentEntry.r) === -1) return;
+            // Group by crew
+            var grouped = {A:[], B:[], C:[], D:[]};
+            candidates.forEach(function(m){ if(grouped[m.c]) grouped[m.c].push(m); });
 
-            // FIXED: CCR → SICE must be same color group
-            if (m.r === 'CCR Operator' && absentEntry.r.includes('Shift in Charge Engineer')) {
-                var mColor = (typeof crewColorMap !== 'undefined') ? crewColorMap[m.n] : '';
-                var siceColor = (typeof crewColorMap !== 'undefined') ? crewColorMap[absentName] : '';
-                if (mColor !== siceColor) return;
-            }
+            ['A','B','C','D'].forEach(function(crew){
+                if (!grouped[crew].length) return;
+                html += '<div class="tip-crew-hdr">Crew ' + crew + '</div>';
+                grouped[crew].forEach(function(m){
+                    var roleAbbr = m.r.replace('Shift in Charge Engineer','ICE')
+                        .replace('Shift In Charge Engineer','ICE')
+                        .replace('CCR Operator','CCR')
+                        .replace('Local Operator','LO')
+                        .replace('Supervisor','SUP');
+                    var cc = (typeof crewColorMap !== 'undefined' && crewColorMap[m.n]) ? crewColorMap[m.n] : '';
+                    html += '<div style="display:flex;justify-content:space-between;padding:1px 0">'
+                        +  '<span class="tip-name ' + cc + '">' + m.n + '</span>'
+                        +  '<span class="tip-role">' + roleAbbr + '</span>'
+                        +  '</div>';
+                });
+            });
 
-            // Different crew colour group (via crewColorMap)
-            if (typeof crewColorMap !== 'undefined') {
-                var c1 = crewColorMap[m.n], c2 = crewColorMap[absentName];
-                if (c1 && c2 && c1 === c2) return;
-            }
-            result.push(m);
-        });
-        return result;
-    }
-
-    function buildTipHTML(absentName, dateKey, shift) {
-        var candidates = getCoverCandidates(absentName, dateKey, shift);
-        var html = '<div class="tip-title">&#128270; Coverage for ' + absentName + '</div>';
-
-        if (candidates.length === 0) {
-            html += '<div class="tip-none">No eligible off-duty cover found</div>';
+            html += '<div class="tip-count">' + candidates.length + ' candidate'
+                + (candidates.length !== 1 ? 's' : '') + ' found</div>';
             return html;
         }
 
-        // Group by crew
-        var grouped = {A:[], B:[], C:[], D:[]};
-        candidates.forEach(function(m){ if(grouped[m.c]) grouped[m.c].push(m); });
-
-        ['A','B','C','D'].forEach(function(crew){
-            if (!grouped[crew].length) return;
-            html += '<div class="tip-crew-hdr">Crew ' + crew + '</div>';
-            grouped[crew].forEach(function(m){
-                var roleAbbr = m.r.replace('Shift in Charge Engineer','ICE')
-                                  .replace('Shift In Charge Engineer','ICE')
-                                  .replace('CCR Operator','CCR')
-                                  .replace('Local Operator','LO')
-                                  .replace('Supervisor','SUP');
-                var cc = (typeof crewColorMap !== 'undefined' && crewColorMap[m.n]) ? crewColorMap[m.n] : '';
-                html += '<div style="display:flex;justify-content:space-between;padding:1px 0">'
-                     +  '<span class="tip-name ' + cc + '">' + m.n + '</span>'
-                     +  '<span class="tip-role">' + roleAbbr + '</span>'
-                     +  '</div>';
-            });
-        });
-
-        html += '<div class="tip-count">' + candidates.length + ' candidate'
-            + (candidates.length !== 1 ? 's' : '') + ' found</div>';
-        return html;
-    }
-
-    // ... rest of the wiring code stays exactly the same ...
-    // (mouseover/mousemove/mouseout + cpRenderTbl/cpOpenPanel hooks)
-})();
+        // ... rest of the wiring code stays exactly the same ...
+        // (mouseover/mousemove/mouseout + cpRenderTbl/cpOpenPanel hooks)
+    })();
 
 </script>
